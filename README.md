@@ -5,6 +5,6 @@
 
   # Lukapeng77's Website
 
-  Visit **[lukapeng77.github.io/DBI-Lab.github.io-DBI-Lab-website](https://lukapeng77.github.io/DBI-Lab.github.io-DBI-Lab-website)** 🚀
+  Visit **[lukapeng77.github.io/DBI-Lab-Website](https://lukapeng77.github.io/DBI-Lab-Website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
