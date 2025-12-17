@@ -1,192 +1,1043 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1111/dom.70052
+  title: Waist circumference remains the better predictor of insulin resistance compared
+    to 2025 Lancet Commission definition on clinical obesity
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  - Han S. J. Chew
+  - Mayank Dalakoti
+  - Melvin K. S. Leow
+  - Lijuan Sun
+  - Jia H. C. Ang
+  - Roger Foo
+  publisher: Diabetes, Obesity and Metabolism
+  date: '2025-08-22'
+  link: https://doi.org/hbfwqn
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1016/j.cmpb.2025.108880
+  title: 'Momentary dietary lapse prediction for obesity management: Developing the
+    Eating Behaviour Lapse Inventory Survey Singapore (eBLISS) and a machine learning
+    lapse prediction model'
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - H.S.J. Chew
+  - M. Shridhar
+  - H. Kuang
+  - J. Wang
+  - M.S. Furqan
+  publisher: Computer Methods and Programs in Biomedicine
+  date: '2025-09-01'
+  link: https://doi.org/hbfwqp
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1111/obr.13905
+  title: 'Digital health interventions to treat overweight and obesity in children
+    and adolescents: An umbrella review'
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - "Tone Nygaard Fl\xF8lo"
+  - "Christine T\xF8rris"
+  - Kirsti Riiser
+  - Kari Almendingen
+  - Han Shi Jocelyn Chew
+  - "Alexander Foss\xE5"
+  - "Elena Albertini Fr\xFCh"
+  - Erin Hennessy
+  - May May Leung
+  - "Nina Misv\xE6r"
+  - Nenad Pavel
+  - Turid Kristin Bigum Sundar
+  - "Toril Margaret S\xE6terstrand"
+  - "Astrid Torbj\xF8rnsen"
+  - "Borghild L\xF8yland"
+  - Heidi Holmen
+  publisher: Obesity Reviews
+  date: '2025-02-19'
+  link: https://doi.org/hbfwqq
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.3390/nu17101689
+  title: "The Effectiveness of Time-Restricted Eating as an Intermittent Fasting Approach\
+    \ on Shift Workers\u2019 Glucose Metabolism: A Systematic Review and Meta-Analysis"
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
+  - Jia Ying Jennell Koh
+  - Celine Yu Han Tan
+  - Meng Li
+  - Mei Hui Liu
+  - Han Shi Jocelyn Chew
+  publisher: Nutrients
+  date: '2025-05-15'
+  link: https://doi.org/hbfwqr
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jocn.17629
+  title: "Nurses' Knowledge, Attitude and Practice in Nutrition Management of Hospitalised\
+    \ Adults: A Mixed\u2010Methods Study"
+  authors:
+  - Wei Lin Sandy Ang
+  - Di Zhang
+  - Huimei Cai
+  - Han Shi Jocelyn Chew
+  publisher: Journal of Clinical Nursing
+  date: '2025-01-23'
+  link: https://doi.org/hbfwqs
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.outlook.2025.102377
+  title: 'The roles of nurses in preventing and managing excess weight among adults:
+    A systematic scoping review'
+  authors:
+  - Adika Sen
+  - Ka Ying Annie Ho
+  - Wei Kian Frederick Goh
+  - Han Shi Jocelyn Chew
+  publisher: Nursing Outlook
+  date: '2025-03-01'
+  link: https://doi.org/hbfwqt
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/nu17030481
+  title: 'Identifying Dietary Triggers Among Individuals with Overweight and Obesity:
+    An Ecological Momentary Assessment Study'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Rakhi Vashishtha
+  - Ruochen Du
+  - Yan Xin Liaw
+  - Ayelet Gneezy
+  publisher: Nutrients
+  date: '2025-01-29'
+  link: https://doi.org/hbfwqv
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.71801
+  title: 'Empowering weight loss through a self-regulation app-based program on weight
+    loss among young adults with excess body weight: A pragmatic randomized controlled
+    trial (Preprint)'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Jia Wen Ngooi
+  - Ruo Chen Du
+  - Pin Zhong Chan
+  - Miia Jansson
+  - Bin Zhu
+  - Yu Cao
+  - Chong Wah Ngo
+  - Roger Foo
+  - Asim Shabbir
+  - Dean Ho
+  - Nick Sevdalis
+  - Kee Yuan Ngiam
+  publisher: JMIR Publications Inc.
+  date: '2025-01-27'
+  link: https://doi.org/hbfwqw
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/58892
+  title: 'AI-Based Noninvasive Blood Glucose Monitoring: Scoping Review'
+  authors:
+  - Pin Zhong Chan
+  - Eric Jin
+  - Miia Jansson
+  - Han Shi Jocelyn Chew
+  publisher: Journal of Medical Internet Research
+  date: '2024-11-19'
+  link: https://doi.org/g94d8s
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/nutrit/nuad163
+  title: 'Anthropometric and cardiometabolic effects of polyphenols in people with
+    overweight and obesity: an umbrella review'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Rou Yi Soong
+  - Yu Qing Jolene Teo
+  - "Tone Nygaard Fl\xF8lo"
+  - Bryan Chong
+  - Cai Ling Yong
+  - Shi Han Ang
+  - Yishen Ho
+  - Nicholas W S Chew
+  - Jimmy Bok Yan So
+  - Asim Shabbir
+  publisher: Nutrition Reviews
+  date: '2024-01-12'
+  link: https://doi.org/hbfwqx
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/08870446.2023.2169320
+  title: "Improving adult eating behaviours by manipulating\_time perspective: a systematic\
+    \ review and meta-analysis"
+  authors:
+  - Han Shi Jocelyn Chew
+  - Jiayi Li
+  - Samuel Chng
+  publisher: Psychology &amp; Health
+  date: '2023-01-24'
+  link: https://doi.org/hbfwqz
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/smi.3367
+  title: "Evaluating the online Resilience Skills Enhancement programme among undergraduate\
+    \ students: A double\u2010blind parallel randomized controlled trial"
+  authors:
+  - Wei How Darryl Ang
+  - Shefaly Shorey
+  - Zhongjia James Zheng
+  - Wai Hung Daniel Ng
+  - "Emmanuel Chih\u2010Wei Chen"
+  - Lubna Shah
+  - Han Shi Jocelyn Chew
+  - Ying Lau
+  publisher: Stress and Health
+  date: '2024-01-05'
+  link: https://doi.org/hbfwq2
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/62767
+  title: 'Correction: Effectiveness of an Artificial Intelligence-Assisted App for
+    Improving Eating Behaviors: Mixed Methods Evaluation'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nicholas WS Chew
+  - Shaun Seh Ern Loong
+  - Su Lin Lim
+  - Wai San Wilson Tam
+  - Yip Han Chin
+  - Ariana M Chao
+  - Georgios K Dimitriadis
+  - Yujia Gao
+  - Jimmy Bok Yan So
+  - Asim Shabbir
+  - Kee Yuan Ngiam
+  publisher: Journal of Medical Internet Research
+  date: '2024-06-07'
+  link: https://doi.org/g8wb5d
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.clnu.2024.05.019
+  title: 'Effects of probiotics, prebiotics and synbiotics on anthropometric, cardiometabolic
+    and inflammatory markers: An umbrella review of meta-analyses'
+  authors:
+  - Yu Qing Jolene Teo
+  - Bryan Chong
+  - Rou Yi Soong
+  - Cai Ling Yong
+  - Nicholas WS. Chew
+  - Han Shi Jocelyn Chew
+  publisher: Clinical Nutrition
+  date: '2024-06-01'
+  link: https://doi.org/hbfwq3
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/pnasnexus/pgae214
+  title: 'N-of-1 health optimization: Digital monitoring of biomarker dynamics to
+    gamify adherence to metabolic switching'
+  authors:
+  - Peter Wang
+  - Xavier Tadeo
+  - Han Shi Jocelyn Chew
+  - Yoann Sapanel
+  - Yoong Hun Ong
+  - Nicole Yong Ting Leung
+  - Edward Kai-Hua Chow
+  - Dean Ho
+  publisher: PNAS Nexus
+  date: '2024-05-30'
+  link: https://doi.org/g926rw
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.62767
+  title: 'Correction: Effectiveness of an Artificial Intelligence-Assisted App for
+    Improving Eating Behaviors: Mixed Methods Evaluation (Preprint)'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nicholas WS Chew
+  - Shaun Seh Ern Loong
+  - Su Lin Lim
+  - Wai San Wilson Tam
+  - Yip Han Chin
+  - Ariana M Chao
+  - Georgios K Dimitriadis
+  - Yujia Gao
+  - Jimmy Bok Yan So
+  - Asim Shabbir
+  - Kee Yuan Ngiam
+  publisher: JMIR Publications Inc.
+  date: '2024-05-30'
+  link: https://doi.org/hbfwq4
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/46036
+  title: 'Effectiveness of an Artificial Intelligence-Assisted App for Improving Eating
+    Behaviors: Mixed Methods Evaluation'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nicholas WS Chew
+  - Shaun Seh Ern Loong
+  - Su Lin Lim
+  - Wai San Wilson Tam
+  - Yip Han Chin
+  - Ariana M Chao
+  - Georgios K Dimitriadis
+  - Yujia Gao
+  - Jimmy Bok Yan So
+  - Asim Shabbir
+  - Kee Yuan Ngiam
+  publisher: Journal of Medical Internet Research
+  date: '2024-05-07'
+  link: https://doi.org/g8nwth
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12912-024-01819-x
+  title: "Nursing students\u2019 readiness towards the \u2018new normal\u2019 in clinical\
+    \ practice: a distributed cognition qualitative perspective"
+  authors:
+  - Wei How Darryl Ang
+  - Khairul Dzakirin Bin Rusli
+  - Ying Lau
+  - Siew Tiang Lau
+  - Han Shi Jocelyn Chew
+  publisher: BMC Nursing
+  date: '2024-04-22'
+  link: https://doi.org/hbfwq5
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/17437199.2023.2185654
+  title: 'Effects of digital health interventions on the psychological outcomes of
+    perinatal women: umbrella review of systematic reviews and meta-analyses'
+  authors:
+  - Ying Lau
+  - Han Shi Jocelyn Chew
+  - Wei How Darryl Ang
+  - Wen Wei Ang
+  - Chin Yi Yeo
+  - Grace Zhi Qi Lim
+  - Sai Ho Wong
+  - Siew Tiang Lau
+  - Ling Jie Cheng
+  publisher: Health Psychology Review
+  date: '2023-03-15'
+  link: https://doi.org/hbfwq6
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.58892
+  title: 'AI-Based Noninvasive Blood Glucose Monitoring: Scoping Review (Preprint)'
+  authors:
+  - Pin Zhong Chan
+  - Eric Jin
+  - Miia Jansson
+  - Han Shi Jocelyn Chew
+  publisher: JMIR Publications Inc.
+  date: '2024-04-01'
+  link: https://doi.org/hbfwq7
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ejim.2023.11.009
+  title: "Early prediction of ventilator-associated pneumonia with machine learning\
+    \ models: A systematic review and meta-analysis of prediction model performance\u2730"
+  authors:
+  - Tuomas Frondelius
+  - Irina Atkova
+  - Jouko Miettunen
+  - Jordi Rello
+  - Gillian Vesty
+  - Han Shi Jocelyn Chew
+  - Miia Jansson
+  publisher: European Journal of Internal Medicine
+  date: '2024-03-01'
+  link: https://doi.org/hbfwq8
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.nedt.2023.105996
+  title: Development and psychometric properties testing of the Non-Cognitive Skills
+    Scale for nursing students
+  authors:
+  - Han Shi Jocelyn Chew
+  - Wei How Darryl Ang
+  - Khairul Dzakirin Bin Rusli
+  - Sok Ying Liaw
+  - Neo Kim Emily Ang
+  - Ying Lau
+  publisher: Nurse Education Today
+  date: '2024-01-01'
+  link: https://doi.org/hbfwq9
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compbiomed.2023.107636
+  title: 'Diagnostic Test Accuracy of artificial intelligence-assisted detection of
+    acute coronary syndrome: A systematic review and meta-analysis'
+  authors:
+  - Pin Zhong Chan
+  - Muhammad Aqil Irfan Bin Ramli
+  - Han Shi Jocelyn Chew
+  publisher: Computers in Biology and Medicine
+  date: '2023-12-01'
+  link: https://doi.org/hbfwrb
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ejon.2023.102446
+  title: "Effectiveness of resilience interventions among cancer patients \u2013 A\
+    \ systematic review, meta-analysis, and meta-regression of randomised controlled\
+    \ trials"
+  authors:
+  - Wee Rong Ang
+  - Wei How Darryl Ang
+  - Swss Qynn Grace Cham
+  - Sanjay de Mel
+  - Han Shi Jocelyn Chew
+  - M Kamala Devi
+  publisher: European Journal of Oncology Nursing
+  date: '2023-12-01'
+  link: https://doi.org/g8wbz5
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jocn.16861
+  title: "The global prevalence of overweight and obesity among nurses: A systematic\
+    \ review and meta\u2010analyses"
+  authors:
+  - Umar Bin Sadali
+  - Khaizuran Khairin Bin Nur Kamal
+  - Jiyoung Park
+  - Han Shi Jocelyn Chew
+  - M. Kamala Devi
+  publisher: Journal of Clinical Nursing
+  date: '2023-09-29'
+  link: https://doi.org/hbfwrc
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0007114523000193
+  title: 'Effectiveness of interactive technology-assisted interventions on promoting
+    healthy food choices: a scoping review and meta-analysis'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nagadarshini Nicole Rajasegaran
+  - Samuel Chng
+  publisher: British Journal of Nutrition
+  date: '2023-01-25'
+  link: https://doi.org/g4np9b
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/nutrit/nuac103
+  title: Umbrella review of time-restricted eating on weight loss, fasting blood glucose,
+    and lipid profile
+  authors:
+  - Han Shi Jocelyn Chew
+  - Wei How Darryl Ang
+  - Zhen Yang Abel Tan
+  - Wen Wei Ang
+  - Kin Sun Chan
+  - Ying Lau
+  publisher: Nutrition Reviews
+  date: '2022-12-15'
+  link: https://doi.org/hbfwrd
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10758-022-09637-3
+  title: 'Barriers and Facilitators of Robot-Assisted Education in Higher Education:
+    A Systematic Mixed-Studies Review'
+  authors:
+  - Hui Shan Chou
+  - Lay Teng Thong
+  - Han Shi Jocelyn Chew
+  - Ying Lau
+  publisher: Technology, Knowledge and Learning
+  date: '2023-01-26'
+  link: https://doi.org/hbfwrf
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/nu15102331
+  title: 'Effects of Plant-Based Diets on Anthropometric and Cardiometabolic Markers
+    in Adults: An Umbrella Review'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Felicia Kai Xin Heng
+  - Si Ai Tien
+  - Jie Yun Thian
+  - Hui Shan Chou
+  - Shaun Seh Ern Loong
+  - Wei How Darryl Ang
+  - Nicholas W. S. Chew
+  - Ka-Hei Kenneth Lo
+  publisher: Nutrients
+  date: '2023-05-16'
+  link: https://doi.org/hbfwrg
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/42432
+  title: 'Effectiveness of Combined Health Coaching and Self-Monitoring Apps on Weight-Related
+    Outcomes in People With Overweight and Obesity: Systematic Review and Meta-analysis'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nagadarshini Nicole Rajasegaran
+  - Yip Han Chin
+  - W S Nicholas Chew
+  - Kyung Mi Kim
+  publisher: Journal of Medical Internet Research
   date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  link: https://doi.org/hbfwrh
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.3390/nu15081826
+  title: 'Socio-Demographic, Behavioral and Psychological Factors Associated with
+    High BMI among Adults in a Southeast Asian Multi-Ethnic Society: A Structural
+    Equation Model'
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Han Shi Jocelyn Chew
+  - Shaun Seh Ern Loong
+  - Su Lin Lim
+  - Wai San Wilson Tam
+  - Nicholas W. S. Chew
+  - Yip Han Chin
+  - Ariana M. Chao
+  - Georgios K. Dimitriadis
+  - Yujia Gao
+  - Bok Yan Jimmy So
+  - Asim Shabbir
+  publisher: Nutrients
+  date: '2023-04-10'
+  link: https://doi.org/hbfwrj
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1093/tbm/ibac090
+  title: 'Essential elements of weight loss apps for a multi-ethnic population with
+    high BMI: a qualitative study with practical recommendations'
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Han Shi Jocelyn Chew
+  - Su Lin Lim
+  - Guowei Kim
+  - Geetha Kayambu
+  - Bok Yan Jimmy So
+  - Asim Shabbir
+  - Yujia Gao
+  publisher: Translational Behavioral Medicine
+  date: '2023-01-23'
+  link: https://doi.org/hbfwrk
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1007/s40519-023-01535-6
+  title: 'Effectiveness of acceptance and commitment therapy on weight, eating behaviours
+    and psychological outcomes: a systematic review and meta-analysis'
   authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
+  - Han Shi Jocelyn Chew
+  - Samuel Chng
+  - Nagadarshini Nicole Rajasegaran
+  - Khun Hean Choy
+  - Yuen Yu Chong
+  publisher: Eating and Weight Disorders - Studies on Anorexia, Bulimia and Obesity
+  date: '2023-02-10'
+  link: https://doi.org/hbfwrm
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.46036
+  title: 'Effectiveness of an Artificial Intelligence-Assisted App for Improving Eating
+    Behaviors: Mixed Methods Evaluation (Preprint)'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nicholas WS Chew
+  - Shaun Seh Ern Loong
+  - Su Lin Lim
+  - Wai San Wilson Tam
+  - Yip Han Chin
+  - Ariana M Chao
+  - Georgios K Dimitriadish
+  - Yujia Gao
+  - Jimmy Bok Yan So
+  - Asim Shabbir
+  - Kee Yuan Ngiam
+  publisher: JMIR Publications Inc.
+  date: '2023-01-26'
+  link: https://doi.org/hbfwrn
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/smi.3154
+  title: "Digital training for building resilience: Systematic review, meta\u2010\
+    analysis, and meta\u2010regression"
+  authors:
+  - Wei How Darryl Ang
+  - Han Shi Jocelyn Chew
+  - Jie Dong
+  - Huso Yi
+  - Rathi Mahendren
+  - Ying Lau
+  publisher: Stress and Health
+  date: '2022-04-28'
+  link: https://doi.org/gp4rwz
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12144-021-01830-4
+  title: "Generation Z undergraduate students\u2019 resilience during the COVID-19\
+    \ pandemic: a qualitative study"
+  authors:
+  - Wei How Darryl Ang
+  - Shefaly Shorey
+  - Violeta Lopez
+  - Han Shi Jocelyn Chew
+  - Ying Lau
+  publisher: Current Psychology
+  date: '2021-07-08'
+  link: https://doi.org/jwwq
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jonm.13425
+  title: 'The role of artificial intelligence in enhancing clinical nursing care:
+    A scoping review'
+  authors:
+  - Zi Qi Pamela Ng
+  - Li Ying Janice Ling
+  - Han Shi Jocelyn Chew
+  - Ying Lau
+  publisher: Journal of Nursing Management
+  date: '2021-08-13'
+  link: https://doi.org/gq4xft
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/ijerph191912899
+  title: 'Becoming More Resilient during COVID-19: Insights from a Process Evaluation
+    of Digital Resilience Training'
+  authors:
+  - Wei How Darryl Ang
+  - Han Shi Jocelyn Chew
+  - Yew Hui Nicholas Ong
+  - Zhongjia James Zheng
+  - Shefaly Shorey
+  - Ying Lau
+  publisher: International Journal of Environmental Research and Public Health
+  date: '2022-10-08'
+  link: https://doi.org/hbfwrp
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/ijerph191912729
+  title: 'Resilience for Undergraduate Students: Development and Evaluation of a Theory-Driven,
+    Evidence-Based and Learner Centered Digital Resilience Skills Enhancement (RISE)
+    Program'
+  authors:
+  - Wei How Darryl Ang
+  - Shefaly Shorey
+  - Zhongjia James Zheng
+  - Wai Hung Daniel Ng
+  - Emmanuel Chih-Wei Chen
+  - Lubna Binte Iskhandar Shah
+  - Han Shi Jocelyn Chew
+  - Ying Lau
+  publisher: International Journal of Environmental Research and Public Health
+  date: '2022-10-05'
+  link: https://doi.org/hbfwrq
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/edu0000719
+  title: 'Effectiveness of resilience interventions for higher education students:
+    A meta-analysis and metaregression.'
+  authors:
+  - Wei How Darryl Ang
+  - Siew Tiang Lau
+  - Ling Jie Cheng
+  - Han Shi Jocelyn Chew
+  - Jung Howe Tan
+  - Shefaly Shorey
+  - Ying Lau
+  publisher: Journal of Educational Psychology
+  date: '2022-10-01'
+  link: https://doi.org/gthcsz
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/40141
+  title: 'Sustainability of Weight Loss Through Smartphone Apps: Systematic Review
+    and Meta-analysis on Anthropometric, Metabolic, and Dietary Outcomes'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Wee Ling Koh
+  - Janelle Shaina Hui Yi Ng
+  - Ker Kan Tan
+  publisher: Journal of Medical Internet Research
+  date: '2022-09-21'
+  link: https://doi.org/hbfwrr
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.42432
+  title: 'Effectiveness of Combined Health Coaching and Self-Monitoring Apps on Weight-Related
+    Outcomes in People With Overweight and Obesity: Systematic Review and Meta-analysis
+    (Preprint)'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Nagadarshini Nicole Rajasegaran
+  - Yip Han Chin
+  - W S Nicholas Chew
+  - Kyung Mi Kim
+  publisher: JMIR Publications Inc.
+  date: '2022-09-03'
+  link: https://doi.org/hbfwrs
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S136898002200043X
+  title: 'Personal motivation, self-regulation barriers and strategies for weight
+    loss in people with overweight and obesity: a thematic framework analysis'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Yujia Gao
+  - Asim Shabbir
+  - Su Lin Lim
+  - Kayambu Geetha
+  - Guowei Kim
+  - Choon Seng Chong
+  - Davide Lomanto
+  - Bok Yan Jimmy So
+  publisher: Public Health Nutrition
   date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  link: https://doi.org/g8wbf6
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1002/erv.2906
+  title: "Weight\u2010loss interventions for improving emotional eating among adults\
+    \ with high body mass index: A systematic review with meta\u2010analysis and meta\u2010\
+    regression"
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Han Shi Jocelyn Chew
+  - Siew Tiang Lau
+  - Ying Lau
+  publisher: European Eating Disorders Review
+  date: '2022-04-23'
+  link: https://doi.org/hbfwrt
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/32578
+  title: "The Use of Artificial Intelligence\u2013Based Conversational Agents (Chatbots)\
+    \ for Weight Loss: Scoping Review and Practical Recommendations"
+  authors:
+  - Han Shi Jocelyn Chew
+  publisher: JMIR Medical Informatics
+  date: '2022-04-13'
+  link: https://doi.org/gt7x44
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/32939
+  title: 'Perceptions and Needs of Artificial Intelligence in Health Care to Increase
+    Adoption: Scoping Review'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Palakorn Achananuparp
+  publisher: Journal of Medical Internet Research
+  date: '2022-01-14'
+  link: https://doi.org/mxtb
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.32939
+  title: 'Perceptions and Needs of Artificial Intelligence in Health Care to Increase
+    Adoption: Scoping Review (Preprint)'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Palakorn Achananuparp
+  publisher: JMIR Publications Inc.
+  date: '2021-08-16'
+  link: https://doi.org/hbfwrv
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.32578
+  title: "The Use of Artificial Intelligence\u2013Based Conversational Agents (Chatbots)\
+    \ for Weight Loss: Scoping Review and Practical Recommendations (Preprint)"
+  authors:
+  - Han Shi Jocelyn Chew
+  publisher: JMIR Publications Inc.
+  date: '2021-08-02'
+  link: https://doi.org/hbfwrw
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S1368980021000598
+  title: 'The potential of artificial intelligence in enhancing adult weight loss:
+    a scoping review'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Wei How Darryl Ang
+  - Ying Lau
+  publisher: Public Health Nutrition
+  date: '2021-02-17'
+  link: https://doi.org/gtjghv
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/tbm/ibaa135
+  title: "COVID-19 pandemic response behaviors: a Singapore experience of the \u201C\
+    circuit breaker\u201D"
+  authors:
+  - Han Shi Jocelyn Chew
+  - Samuel Chng
+  publisher: Translational Behavioral Medicine
+  date: '2021-03-01'
+  link: https://doi.org/hbfwrx
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1043659620905891
+  title: 'The Influence of Confucianism on the Perceptions and Process of Caring Among
+    Family Caregivers of Persons With Dementia: A Qualitative Study'
+  authors:
+  - Hing Cheung Yiu
+  - Yuli Zang
+  - Jocelyn Han Shi Chew
+  - Janita Pak Chun Chau
+  publisher: Journal of Transcultural Nursing
+  date: '2020-02-13'
+  link: https://doi.org/gpk26h
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/ijerph18041876
+  title: 'Global Impact of COVID-19 on Weight and Weight-Related Behaviors in the
+    Adult Population: A Scoping Review'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Violeta Lopez
+  publisher: International Journal of Environmental Research and Public Health
+  date: '2021-02-15'
+  link: https://doi.org/gtrmn8
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ijnurstu.2021.103872
+  title: 'Effectiveness of a nurse-led temporal self-regulation theory-based program
+    on heart failure self-care: A randomized controlled trial'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Kheng Leng David Sim
+  - Kai Chow Choi
+  - Sek Ying Chair
+  publisher: International Journal of Nursing Studies
+  date: '2021-03-01'
+  link: https://doi.org/gm8hht
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10865-019-00080-x
+  title: Relationship between self-care adherence, time perspective, readiness to
+    change and executive function in patients with heart failure
+  authors:
+  - Han Shi Jocelyn Chew
+  - Kheng Leng David Sim
+  - Kai Chow Choi
+  - Sek Ying Chair
+  publisher: Journal of Behavioral Medicine
+  date: '2020-07-16'
+  link: https://doi.org/hbfwrz
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.hrtlng.2019.05.005
+  title: 'Self-care in Chinese heart failure patients: Gender-specific correlates'
+  authors:
+  - Xi Cao
+  - Sek Ying Chair
+  - Xiuhua Wang
+  - Han Shi Jocelyn Chew
+  - Ho Yu Cheng
+  publisher: Heart &amp; Lung
+  date: '2019-11-01'
+  link: https://doi.org/hbfwr2
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12529-019-09798-z
+  title: 'Motivation, Challenges and Self-Regulation in Heart Failure Self-Care: a
+    Theory-Driven Qualitative Study'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Kheng Leng David Sim
+  - Xi Cao
+  - Sek Ying Chair
+  publisher: International Journal of Behavioral Medicine
+  date: '2019-07-09'
+  link: https://doi.org/g9tbk4
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/iwj.13078
+  title: "Using the Braden subscales to assess risk of pressure injuries in adult\
+    \ patients: A retrospective case\u2010control study"
+  authors:
+  - Ellene Lim
+  - Zubaidah Mordiffi
+  - Han S. J. Chew
+  - Violeta Lopez
+  publisher: International Wound Journal
+  date: '2019-02-07'
+  link: https://doi.org/hbfwr3
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.apnr.2018.11.006
+  title: 'The suitability of motivational interviewing versus cognitive behavioural
+    interventions on improving self-care in patients with heart failure: A literature
+    review and discussion paper'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Ho Yu Cheng
+  - Sek Ying Chair
+  publisher: Applied Nursing Research
+  date: '2019-02-01'
+  link: https://doi.org/gnm246
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1891/1748-6254.12.3.56
+  title: 'Cognitive Assessment in Adult Cardiac Arrest Survivors: What Is Known and
+    How Shall We Move Forward?'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Ho Yu Cheng
+  - Xi Cao
+  - Violeta Lopez
+  publisher: 'Connect: The World of Critical Care Nursing'
+  date: '2018-09-01'
+  link: https://doi.org/hbfwr4
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1891/1748-6254.12.3.73
+  title: 'Difference of Radial Access and Femoral Access on Patient Outcomes in Diagnostic
+    Cardiac Catheterization: A Quasi-Experimental Study'
+  authors:
+  - Xi Cao
+  - Sui Ying Fung
+  - Yuen Yi Lai
+  - Sek Ying Chair
+  - Han Shi Jocelyn Chew
+  publisher: 'Connect: The World of Critical Care Nursing'
+  date: '2018-09-01'
+  link: https://doi.org/hbfwr5
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1043659617745138
+  title: 'Empowered to Self-Care: A Photovoice Study in Patients With Heart Failure'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Violeta Lopez
+  publisher: Journal of Transcultural Nursing
+  date: '2017-12-01'
+  link: https://doi.org/gd47cd
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/iwj.12855
+  title: "Turning frequency in adult bedridden patients to prevent hospital\u2010\
+    acquired pressure ulcer: A scoping review"
+  authors:
+  - "H\u2010S Jocelyn Chew"
+  - Emelia Thiara
+  - Violeta Lopez
+  - Shefaly Shorey
+  publisher: International Wound Journal
+  date: '2017-12-15'
+  link: https://doi.org/gdgpkn
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -202,9 +1053,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -221,21 +1069,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
