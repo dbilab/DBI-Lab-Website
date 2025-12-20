@@ -137,12 +137,14 @@ header:not([data-big]) {
 header[data-big] {
   // Desktop layout: title/nav centered, PI profile on the right.
   display: grid;
-  grid-template-columns: 1fr auto;
+  // Use 3 columns so the center content stays truly centered on the page,
+  // while the PI profile occupies the right column.
+  grid-template-columns: 1fr auto 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
-    "home profile"
-    "nav  profile";
-  column-gap: 60px;
+    ". home profile"
+    ". nav  profile";
+  column-gap: 40px;
   row-gap: 18px;
   justify-content: center;
   align-items: center;
@@ -196,7 +198,7 @@ header[data-big] {
     grid-area: profile;
     justify-self: end;
     align-self: center;
-    max-width: 280px;
+    max-width: 260px;
   }
 
   // Tighten the portrait component spacing inside the header.
@@ -210,7 +212,7 @@ header[data-big] {
     margin-bottom: 14px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas:
