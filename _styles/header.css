@@ -146,7 +146,7 @@ header[data-big] nav > a {
   padding: 8px 10px;
 }
 header[data-big] .title {
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-size: clamp(2rem, 3.6vw, 2.9rem);
 }
 header[data-big] .subtitle {
   font-size: clamp(1.2rem, 2.2vw, 1.8rem);
