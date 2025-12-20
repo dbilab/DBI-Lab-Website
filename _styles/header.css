@@ -90,10 +90,11 @@ nav {
   gap: 10px;
   font-family: var(--heading);
   text-transform: uppercase;
+  font-size: 1.1rem;
 }
 
 nav > a {
-  padding: 5px;
+  padding: 7px 8px;
 }
 
 nav > a:hover {
@@ -137,11 +138,18 @@ header[data-big] .title-text {
   align-items: center;
   text-align: center;
 }
+header[data-big] nav {
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  gap: 14px;
+}
+header[data-big] nav > a {
+  padding: 8px 10px;
+}
 header[data-big] .title {
-  font-size: var(--xxl);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
 }
 header[data-big] .subtitle {
-  font-size: var(--large);
+  font-size: clamp(1.2rem, 2.2vw, 1.8rem);
 }
 
 /*# sourceMappingURL=header.css.map */
