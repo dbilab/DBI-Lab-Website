@@ -119,15 +119,22 @@ nav > a:hover {
 }
 
 header[data-big] {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "home profile" "nav  profile";
+  column-gap: 60px;
+  row-gap: 18px;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 100px 20px;
   top: unset;
 }
 header[data-big] .home {
   flex-direction: column;
   flex-grow: 0;
+  grid-area: home;
+  justify-self: center;
 }
 header[data-big] .logo {
   height: 80px;
@@ -139,6 +146,8 @@ header[data-big] .title-text {
   text-align: center;
 }
 header[data-big] nav {
+  grid-area: nav;
+  justify-self: center;
   font-size: clamp(1.05rem, 1.6vw, 1.25rem);
   gap: 14px;
 }
@@ -150,6 +159,33 @@ header[data-big] .title {
 }
 header[data-big] .subtitle {
   font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+}
+header[data-big] .home-profile {
+  grid-area: profile;
+  justify-self: end;
+  align-self: center;
+  max-width: 280px;
+}
+header[data-big] .home-profile .portrait {
+  margin: 0;
+  width: 260px;
+  max-width: 100%;
+}
+header[data-big] .home-profile .portrait-image {
+  margin-bottom: 14px;
+}
+@media (max-width: 900px) {
+  header[data-big] {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "home" "profile" "nav";
+    column-gap: 0;
+    row-gap: 20px;
+  }
+  header[data-big] .home-profile {
+    justify-self: center;
+    max-width: 320px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
