@@ -143,6 +143,10 @@ header:not([data-big]) {
 }
 
 header[data-big] {
+  // Responsive homepage logo width (logo.png is rectangular).
+  // Tune this to control how large the DBI Lab logo appears.
+  --home-logo-w: clamp(220px, 20vw, 320px);
+
   // Desktop layout: title/nav centered, PI profile on the right.
   display: grid;
   // Use 3 columns so the center content stays truly centered on the page,
@@ -166,7 +170,7 @@ header[data-big] {
     // Keep the title/subtitle perfectly centered on the page while
     // placing the logo to its left (and an invisible spacer to the right).
     display: grid;
-    grid-template-columns: $logo-big auto $logo-big;
+    grid-template-columns: var(--home-logo-w) auto var(--home-logo-w);
     align-items: center;
     justify-items: center;
     column-gap: 18px;
@@ -176,13 +180,20 @@ header[data-big] {
   }
 
   .logo {
-    height: $logo-big;
-    width: $logo-big;
+    width: var(--home-logo-w);
+    height: auto;
     flex-shrink: 0;
   }
 
+  // Override the global logo sizing rules for homepage so the PNG keeps
+  // its natural aspect ratio while scaling up.
+  .logo > * {
+    width: 100%;
+    height: auto;
+  }
+
   .logo-spacer {
-    width: $logo-big;
+    width: var(--home-logo-w);
     height: 1px;
     visibility: hidden;
   }
