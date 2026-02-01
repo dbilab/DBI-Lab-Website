@@ -18,7 +18,7 @@ Our projects range from observational trials, randomized controlled trials, impl
 
 ## Ongoing
 
-{% include list.html component="card" data="projects" filter="group == 'ongoing'" %}
+{% include list.html component="card" data="projects" filter="group == 'Ongoing'" %}
 
 {% include section.html %}
 
