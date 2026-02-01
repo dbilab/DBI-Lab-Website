@@ -24,7 +24,7 @@ Our projects range from observational trials, randomized controlled trials, impl
 
 ## Closed
 
-{% include list.html component="card" data="projects" filter="group == 'Closed'" style="small" %}
+{% include list.html component="card" data="projects" filter="group == 'Closed'" %}
 
 ## More
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include list.html component="card" data="projects" filter="!group" %}
