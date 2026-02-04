@@ -61,7 +61,7 @@ Our projects range from observational trials, randomized controlled trials, impl
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+To see the main members of our research team via the following link: 
 
 {%
   include button.html
