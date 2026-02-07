@@ -1,6 +1,6 @@
 - title: eTRIP
   group: Closed
-  image: images/photo.jpg
+  image: images/Posters/eTRIP_Poster.jpeg
   link: https://github.com/
   description: >-
     Improving weight loss in healthy adults with overweight and obesity: An artificial intelligence-assisted dietary prediction and prevention system with continuous glucose monitoring.
@@ -10,8 +10,8 @@
 
 - title: Lighter-Mets
   group: Ongoing
-  image: images/photo.jpg
-  link: https://github.com/
+  image: images/Posters/Lighter_Poster.jpeg
+  link: https://nus.syd1.qualtrics.com/jfe/form/SV_3xzkqZstTLtZesK
   description: Lifestyle intervention for gentle, healthy transformation and eating-regulation for individuals with metabolic syndrome.
   repo: greenelab/lab-website-template
   tags:
@@ -20,7 +20,7 @@
 - title: Weight Stigma
   group: Ongoing
   image: images/photo.jpg
-  link: https://github.com/
+  link: https://nus.syd1.qualtrics.com/jfe/form/SV_1XHV3GPCvb8d8Ro
   description: >-
     Understanding Body Image, Weight Stigma and Professional Identity among Healthcare Students and Staff: A Cross-Sectional Study​ .
   repo: greenelab/lab-website-template
@@ -28,13 +28,15 @@
     - resource
     - publication
 
-- title: Cool Web App
+- title: Social Comparison
+  group: Ongoing
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  link: https://forms.gle/Rew6brmot3iK1oJE8
+  description: The Effect of Social Comparison Direction on Daily Calorie Intake: A Randomized Crossover Trial Study.
   repo: greenelab/lab-website-template
   tags:
-    - software
+    - resource
+    - publication
 
 - title: Cool Web Server
   image: images/photo.jpg

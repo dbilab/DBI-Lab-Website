@@ -26,7 +26,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
+  tooltip="Lab Location: Block MD 6, Level 5, 14 Medical Drive, Singapore 117599"
   link="https://www.google.com/maps"
 %}
 
