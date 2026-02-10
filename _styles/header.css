@@ -127,7 +127,7 @@ nav > a:hover {
 }
 
 header[data-big] {
-  --home-logo-w: clamp(220px, 20vw, 320px);
+  --home-logo-w: clamp(280px, 24vw, 420px);
   --home-profile-w: 260px;
   --home-page-w: 1000px;
   display: grid;
@@ -144,7 +144,7 @@ header[data-big] {
 header[data-big] .home-logo {
   grid-area: logo;
   justify-self: start;
-  align-self: center;
+  align-self: start;
 }
 header[data-big] .home-logo .logo {
   width: var(--home-logo-w);
@@ -157,7 +157,7 @@ header[data-big] .home-logo .logo > * {
 header[data-big] .home-title {
   grid-area: title;
   justify-self: center;
-  align-self: center;
+  align-self: start;
   max-width: 100%;
 }
 header[data-big] .home-title .title-text {
@@ -185,13 +185,13 @@ header[data-big] .subtitle {
 header[data-big] .home-profile {
   grid-area: profile;
   justify-self: end;
-  align-self: center;
+  align-self: start;
   max-width: var(--home-profile-w);
   width: var(--home-profile-w);
 }
 header[data-big] .home-profile .portrait {
   margin: 0;
-  width: 260px;
+  width: var(--home-profile-w);
   max-width: 100%;
 }
 header[data-big] .home-profile .portrait-image {
