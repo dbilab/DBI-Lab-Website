@@ -128,6 +128,7 @@ nav > a:hover {
 
 header[data-big] {
   --home-logo-w: clamp(280px, 24vw, 420px);
+  --home-logo-offset-left: 24px;
   --home-profile-w: 260px;
   --home-page-w: 1000px;
   display: grid;
@@ -145,6 +146,7 @@ header[data-big] .home-logo {
   grid-area: logo;
   justify-self: start;
   align-self: start;
+  margin-left: var(--home-logo-offset-left);
 }
 header[data-big] .home-logo .logo {
   width: var(--home-logo-w);
