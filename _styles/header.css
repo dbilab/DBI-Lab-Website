@@ -129,49 +129,41 @@ nav > a:hover {
 header[data-big] {
   --home-logo-w: clamp(220px, 20vw, 320px);
   --home-profile-w: 260px;
+  --home-page-w: 1000px;
   display: grid;
-  grid-template-columns: var(--home-profile-w) 1fr var(--home-profile-w);
+  grid-template-columns: 1fr minmax(0, var(--home-page-w)) 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: "spacer home profile" "spacer nav  profile";
-  column-gap: 40px;
+  grid-template-areas: "logo title profile" "logo nav   profile";
+  column-gap: 20px;
   row-gap: 18px;
   justify-content: center;
   align-items: center;
   padding: 100px 20px;
   top: unset;
 }
-header[data-big] .home-profile-spacer {
-  grid-area: spacer;
-  width: var(--home-profile-w);
-  height: 1px;
-  visibility: hidden;
+header[data-big] .home-logo {
+  grid-area: logo;
+  justify-self: start;
+  align-self: center;
 }
-header[data-big] .home {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(28px, 4vw, 80px);
-  flex-grow: 0;
-  grid-area: home;
-  justify-self: center;
-}
-header[data-big] .logo {
+header[data-big] .home-logo .logo {
   width: var(--home-logo-w);
   height: auto;
-  flex-shrink: 0;
 }
-header[data-big] .logo > * {
+header[data-big] .home-logo .logo > * {
   width: 100%;
   height: auto;
 }
-header[data-big] .logo-spacer {
-  display: none;
+header[data-big] .home-title {
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
 }
-header[data-big] .title-text {
+header[data-big] .home-title .title-text {
   flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   min-width: 0;
 }
 header[data-big] nav {
@@ -208,8 +200,8 @@ header[data-big] .home-profile .portrait-image {
 @media (max-width: 1200px) {
   header[data-big] {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "home" "profile" "nav";
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "logo" "title" "profile" "nav";
     column-gap: 0;
     row-gap: 20px;
   }
@@ -217,8 +209,8 @@ header[data-big] .home-profile .portrait-image {
     justify-self: center;
     max-width: 320px;
   }
-  header[data-big] .home-profile-spacer {
-    display: none;
+  header[data-big] .home-logo {
+    justify-self: center;
   }
   header[data-big] .title {
     white-space: normal;
