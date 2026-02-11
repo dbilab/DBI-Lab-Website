@@ -145,7 +145,7 @@ header:not([data-big]) {
 header[data-big] {
   // Responsive homepage logo width (logo.png is rectangular).
   // Tune this to control how large the DBI Lab logo appears.
-  --home-logo-w: clamp(280px, 24vw, 420px);
+  --home-logo-w: clamp(360px, 24vw, 520px);
   // Extra breathing room from the left edge for the homepage logo.
   // Use margin (not header padding) so the centered title/nav alignment never shifts.
   --home-logo-offset-left: 200px;
