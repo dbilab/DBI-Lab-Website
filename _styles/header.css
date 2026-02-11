@@ -127,7 +127,7 @@ nav > a:hover {
 }
 
 header[data-big] {
-  --home-logo-w: clamp(280px, 24vw, 420px);
+  --home-logo-w: clamp(360px, 24vw, 520px);
   --home-logo-offset-left: 200px;
   --home-profile-w: 260px;
   --home-page-w: 1000px;
