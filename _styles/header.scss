@@ -148,7 +148,7 @@ header[data-big] {
   --home-logo-w: clamp(280px, 24vw, 420px);
   // Extra breathing room from the left edge for the homepage logo.
   // Use margin (not header padding) so the centered title/nav alignment never shifts.
-  --home-logo-offset-left: 60px;
+  --home-logo-offset-left: 200px;
   // PI profile width target (keeps the right block consistent).
   --home-profile-w: 260px;
   // Keep the homepage title+nav aligned with the main content width (see _styles/section.scss).
