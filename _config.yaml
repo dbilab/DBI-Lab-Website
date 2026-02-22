@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: Digital Behavioral Insights Lab
-subtitle: By DBI Lab
+subtitle: 
 description: A brief description of DBI Lab.
 header: images/background.png
 footer: images/background.png
@@ -8,7 +8,7 @@ proofer: false
 
 # site social media and other links, needs to be changed accordingly.
 links:
-  email: 
+  email: dbi-lab@nus.edu.sg
   orcid: 
   google-scholar: 
   github: 
