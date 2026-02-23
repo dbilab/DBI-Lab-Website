@@ -1,7 +1,7 @@
 ---
-title: Example post 3
+title: website demo
 image: images/photo.jpg
-author: john-doe
+author: wen wei
 tags: biology, medicine
 ---
 
