@@ -1,6 +1,6 @@
 ---
 name: Koh Jia Ying Jennell
-image: images/team/Jennell_Photo.jpg
+image: images/team/Jennell_photo.jpg
 description: PhD Student
 role: phd
 links:

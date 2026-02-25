@@ -27,7 +27,7 @@ Our research examines how people make health decisions in daily life and how dig
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -51,7 +51,7 @@ Our projects range from observational trials, randomized controlled trials, impl
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Project.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -76,7 +76,7 @@ To see the main members of our research team via the following link:
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Team_photo.jpg"
   link="team"
   title="Our Team"
   text=text
