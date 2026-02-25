@@ -1,6 +1,6 @@
 ---
-name: ANG Wen Wei
-image: images/photo.jpg
+name: Ang Wen Wei
+image: images/team/WenWei_Photo.jpg
 description: Research Assistant
 role: ra
 links:

@@ -1,6 +1,6 @@
 ---
 name: Peng Ziyi
-image: images/photo.jpg
+image: images/team/Ziyi_Photo.jpg
 description: Undergraduate
 role: undergrad
 links:
