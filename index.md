@@ -27,7 +27,7 @@ Our research examines how people make health decisions in daily life and how dig
 
 {%
   include feature.html
-  image="images/research.jpg"
+  image="images/Research.jpg"
   link="research"
   title="Our Research"
   text=text

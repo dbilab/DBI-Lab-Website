@@ -10,6 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
+    {% comment %}
     {% if include.style == "rich" %}
       <a
         {% if citation.link %}
@@ -26,6 +27,7 @@
         >
       </a>
     {% endif %}
+    {% endcomment %}
 
     <div class="citation-text">
       {% assign type = site.data.types[citation.type] %}
