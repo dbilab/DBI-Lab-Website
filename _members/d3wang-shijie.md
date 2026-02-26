@@ -1,6 +1,6 @@
 ---
 name: Wang Shijie
-image: images/photo.jpg
+image: images/team/Shijie_photo.jpg
 role: ra
 group: alum
 links:
