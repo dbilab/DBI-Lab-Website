@@ -1,1 +1,1 @@
-Sitemap: https://lukapeng77.github.io/DBI-Lab-Website/sitemap.xml
+Sitemap: https://dbilab.github.io/DBI-Lab-Website/sitemap.xml
