@@ -2,7 +2,7 @@
 name: Ang Wen Wei
 image: images/team/WenWei_photo.jpg
 description: Project Manager
-role: pa
+role: pm
 links:
   email: wen_wei@nus.edu.sg
   orcid: 0000-0002-1978-1543

@@ -1,7 +1,6 @@
 ---
 name: Trang
-image: images/team/Trang_photo.jpg
-description: Data Scientist
+image: images/team/Trang_photo.jpeg
 role: nutritionscientist
 ---
 
