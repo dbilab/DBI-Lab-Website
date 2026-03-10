@@ -1,6 +1,7 @@
 ---
 name: Trang La
 image: images/team/Trang_photo.jpeg
+description: Nutrition Scientist
 role: nutritionscientist
 ---
 
