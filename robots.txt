@@ -1,1 +1,1 @@
-Sitemap: https://dbilab.github.io/DBI-Lab-Website/sitemap.xml
+Sitemap: http://dbi-lab.com/sitemap.xml
