@@ -3,8 +3,11 @@
 {% endcomment %}
 
 <!-- section break -->
+{% assign has_dark = include.dark == true or include.dark == false or include.dark == "true" or include.dark == "false" %}
+{% if include.background or has_dark or include.size %}
 <!--
-  <background>{{ include.background }}</background>
-  <dark>{{ include.dark }}</dark>
-  <size>{{ include.size }}</size>
+  {% if include.background %}<background>{{ include.background }}</background>{% endif %}
+  {% if has_dark %}<dark>{{ include.dark }}</dark>{% endif %}
+  {% if include.size %}<size>{{ include.size }}</size>{% endif %}
 -->
+{% endif %}

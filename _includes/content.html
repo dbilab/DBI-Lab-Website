@@ -13,15 +13,21 @@
   {% assign dark = section
     | regex_scan: "<dark>(.*?)</dark>"
     | default: ""
+    | strip
   %}
   {% assign image = section
     | regex_scan: "<background>(.*?)</background>"
-    | default: nil
+    | default: ""
+    | strip
   %}
   {% assign size = section
     | regex_scan: "<size>(.*?)</size>"
     | default: "page"
+    | strip
   %}
+  {% if size == "" %}
+    {% assign size = "page" %}
+  {% endif %}
 
   <section
     class="background"
@@ -29,9 +35,9 @@
     {% if dark == "true" or dark == "false" %}
       data-dark="{{ dark }}"
     {% endif %}
-    {% if image %}
+    {% unless image == "" or image contains "<" or image contains ">" %}
       style="--image: url('{{ image | relative_url | uri_escape }}')"
-    {% endif %}
+    {% endunless %}
   >
     {{ section }}
   </section>
