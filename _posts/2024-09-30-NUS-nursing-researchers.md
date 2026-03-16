@@ -1,5 +1,5 @@
 ---
-title: "We Hope to Create an Ecosystem for Innovation": Assistant Professor Jocelyn Chew's Vision for Nursing Excellence
+title: NUS Nursing Researchers Among World’s Top 2% Most-Cited in 2024
 image: images/Blogs/post-24-09-30.png
 author: NUS
 tags:
@@ -10,9 +10,7 @@ tags:
 ---
 
 <!-- excerpt start -->
-Assistant Professor Jocelyn Chew stands out as a pioneer who’s transforming healthcare through technology and behavioural science. The youngest nurse in Singapore to obtain a PhD, A/Prof Chew’s innovative approach to obesity management is redefining how we address one of Singapore’s most pressing health challenges.
-
-Her revolutionary app called eTRIP (Eating Trigger-Response Inhibition Program), which is currently being rebranded and renamed to ME (Mindful Eating), uses Artificial Intelligence (AI) to predict and prevent dietary triggers, potentially impacting thousands of patients struggling with excess adiposity and cardiometabolic diseases.
+We are proud to announce that nine researchers from the NUS Alice Lee Centre for Nursing Studies have been recognised among the top 2% most-cited researchers in the world for 2024! This recognition, led by Stanford University and published by Elsevier, highlights the global impact of our researchers’ contributions to the field of nursing.
 <!-- excerpt end -->
 
 The list features leading scientists whose work has been referenced widely in academic publications, underscoring the significance and influence of their research on healthcare and nursing practices worldwide. Congratulations to the following researchers from NUS Nursing who have earned this honour:

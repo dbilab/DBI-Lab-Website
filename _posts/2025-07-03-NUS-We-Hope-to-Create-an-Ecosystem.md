@@ -1,5 +1,5 @@
 ---
-title: "We Hope to Create an Ecosystem for Innovation": Assistant Professor Jocelyn Chew's Vision for Nursing Excellence
+title: '"We Hope to Create an Ecosystem for Innovation": Assistant Professor Jocelyn Chew''s Vision for Nursing Excellence'
 image: images/Blogs/post-25-07-03.png
 author: NUS
 tags:
