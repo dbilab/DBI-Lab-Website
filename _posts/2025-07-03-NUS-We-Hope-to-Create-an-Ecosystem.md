@@ -1,6 +1,6 @@
 ---
 title: "We Hope to Create an Ecosystem for Innovation": Assistant Professor Jocelyn Chew's Vision for Nursing Excellence
-image: images/Blogs/post-24-09-30.png
+image: images/Blogs/post-25-07-03.png
 author: NUS
 tags:
   - research
@@ -14,25 +14,3 @@ Assistant Professor Jocelyn Chew stands out as a pioneer who’s transforming he
 
 Her revolutionary app called eTRIP (Eating Trigger-Response Inhibition Program), which is currently being rebranded and renamed to ME (Mindful Eating), uses Artificial Intelligence (AI) to predict and prevent dietary triggers, potentially impacting thousands of patients struggling with excess adiposity and cardiometabolic diseases.
 <!-- excerpt end -->
-
-The list features leading scientists whose work has been referenced widely in academic publications, underscoring the significance and influence of their research on healthcare and nursing practices worldwide. Congratulations to the following researchers from NUS Nursing who have earned this honour:
-
-Prof Vivien Lim
-
-Prof Liaw Sok Ying
-
-Prof He Hong-gu Linda
-
-Prof Wang Wenru
-
-A/Prof Shefaly Shorey
-
-A/Prof Wilson Tam
-
-Asst Prof Wu, Xi Vivien
-
-A/Prof Piyanee Yobas
-
-Asst Prof Chew Han Shi Jocelyn
-
-This achievement reflects our commitment to advancing nursing education, patient care, and research innovation.
