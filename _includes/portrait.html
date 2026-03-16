@@ -38,7 +38,7 @@
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: newline_to_br  }}
+        {{ member.description | default: type.description | newline_to_br }}
       </span>
     {% endif %}
 
