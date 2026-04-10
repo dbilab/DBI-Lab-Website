@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.2196/preprints.96285
+  title: "Anticipating the Impact of Artificial Intelligence on Diet and Exercise\
+    \ Applications: \nA Foresight Study Applying the Futures Wheel (Preprint)"
+  authors:
+  - Xavier Tadeo
+  - Gyula Seres
+  - Sapphire Lin
+  - Yoann Sapanel
+  - Jocelyn Chew
+  - Dean Ho
+  publisher: JMIR Publications Inc.
+  date: '2026-03-27'
+  link: https://doi.org/hbv4cj
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1155/jonm/2199578
   title: "Self\u2010Regulation of Healthy Lifestyles in the Nursing Workplace: A Mixed\u2010\
     Method Evaluation"
