@@ -5,7 +5,8 @@
 {% assign png_transparent = "images/logo.png" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
-{% assign logo = png_transparent | default: png | default: svg | default: jpg | default: nil %}
+{% assign logo = nil %}
+<!-- {% assign logo = png_transparent | default: png | default: svg | default: jpg | default: nil %}-->
 
 <header
   class="background"
