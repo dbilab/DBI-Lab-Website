@@ -6,8 +6,9 @@
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = nil %}
-<!-- {% assign logo = png_transparent | default: png | default: svg | default: jpg | default: nil %}-->
-
+{% comment %}
+{% assign logo = png_transparent | default: png | default: svg | default: jpg | default: nil %}
+{% endcomment %}
 <header
   class="background"
   style="--image: url('{{ image | relative_url | uri_escape }}')"
