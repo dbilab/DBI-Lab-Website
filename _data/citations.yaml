@@ -1,5 +1,71 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.06.15.26355645
+  title: Cardiometabolic risk phenogroups from a data-driven classification with expanded
+    risk factors
+  authors:
+  - Jiayu Feng
+  - Jocelyn Han Shi Chew
+  - Hangkuan Liu
+  - Nadja Mikulic
+  - Abhinit Kumar Ambastha
+  - Melvin Khee Shing Leow
+  - Derek John Hausenloy
+  - Mark Dhinesh Muthiah
+  - Wenru Wang
+  - Lieng Hsi Ling
+  - Michael Wei Liang Chee
+  - Ju Lynn Ong
+  - Calvin Woon Loong Chin
+  - Dianbo Liu
+  - Weiqiang Seow
+  - Reshma Aziz Merchant
+  - Xin Zhou
+  - Qing Yang
+  - Josip Car
+  - Roger Foo
+  publisher: openRxiv
+  date: '2026-06-24'
+  link: https://doi.org/hb8x3f
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ijnss.2026.04.013
+  title: "Developing implementation strategies for a community-based digital weight\
+    \ management program: A hybrid deductive\u2013inductive thematic analysis grounded\
+    \ in implementation theory"
+  authors:
+  - Han Shi Jocelyn Chew
+  - Wen Wei Ang
+  - Xuanming Sherman Tan
+  - Rakhi Vashishtha
+  - Soon Ling Chan
+  - Nick Sevdalis
+  publisher: International Journal of Nursing Sciences
+  date: '2026-05-01'
+  link: https://doi.org/hbzkmv
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/96285
+  title: 'Anticipating the Impact of Artificial Intelligence on Diet and Exercise
+    Applications:  A Foresight Study Applying the Futures Wheel (Preprint)'
+  authors:
+  - Xavier Tadeo
+  - Gyula Seres
+  - Sapphire Lin
+  - Yoann Sapanel
+  - Jocelyn Chew
+  - Dean Ho
+  publisher: Journal of Medical Internet Research
+  date: '2026-03-27'
+  link: https://doi.org/hb4nzt
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.2196/preprints.96285
   title: "Anticipating the Impact of Artificial Intelligence on Diet and Exercise\
     \ Applications: \nA Foresight Study Applying the Futures Wheel (Preprint)"
@@ -17,6 +83,31 @@
   chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1093/abm/kaag017
+  title: 'Improving weight loss among young adults with excess body weight using a
+    theory-driven digital self-regulation program: a randomized controlled trial'
+  authors:
+  - Han Shi Jocelyn Chew
+  - Jia Wen Ngooi
+  - Wen Wei Ang
+  - Ruo Chen Du
+  - Pin Zhong Chan
+  - Miia Jansson
+  - Bin Zhu
+  - Yu Cao
+  - Chong Wah Ngo
+  - Roger Foo
+  - Asim Shabbir
+  - Dean Ho
+  - Nick Sevdalis
+  - Kee Yuan Ngiam
+  publisher: ann. behav. med.
+  date: '2026-01-01'
+  link: https://doi.org/hbxpwh
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1155/jonm/2199578
   title: "Self\u2010Regulation of Healthy Lifestyles in the Nursing Workplace: A Mixed\u2010\
     Method Evaluation"
@@ -28,6 +119,37 @@
   publisher: Journal of Nursing Management
   date: '2026-01-01'
   link: https://doi.org/hbkdqx
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.6747349
+  title: Cardiometabolic Risk Phenogroups from a Data-Driven Classification with Expanded
+    Risk Factors
+  authors:
+  - Jiayu Feng
+  - Han Shi Jocelyn Chew
+  - Hangkuan Liu
+  - Nadja Mikulic
+  - Abhinit  Kumar Ambastha
+  - Melvin Khee Shing Leow
+  - Derek J. Hausenloy
+  - Mark Muthiah
+  - Wenru Wang
+  - Lieng Hsi Ling
+  - Michael W.L. Chee
+  - Ju Lynn Ong
+  - Calvin Woon Loong Chin
+  - Dianbo Liu
+  - Weiqiang Seow
+  - Reshma  Aziz Merchant
+  - Xin Zhou
+  - Qing Yang
+  - Josip Car
+  - Roger S.Y. Foo
+  publisher: Elsevier BV
+  date: '2026-01-01'
+  link: https://doi.org/hb4nzv
   orcid: 0000-0002-4209-1647
   chew-jocelyn: true
   plugin: orcid.py
