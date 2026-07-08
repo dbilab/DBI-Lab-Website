@@ -1,7 +1,7 @@
 ---
 name: Ang Wen Wei
 image: images/team/WenWei_photo.jpg
-description: Project Manager
+description: Lab Manager
 role: pm
 links:
   email: wen_wei@nus.edu.sg

@@ -1,5 +1,5 @@
 ---
-title: Awards
+title: <img src="../images/TeaLogo.png" width="40">
 nav:
   order: 5
   tooltip: Paper awards and certificates

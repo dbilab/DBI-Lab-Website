@@ -30,9 +30,13 @@ nutritionscientist:
   icon: fa-solid fa-user-graduate
   description: Nutrition Scientist
 
+associates:
+  icon: fa-solid fa-user-graduate
+  description: Digital Engagement Associate
+
 pm:
   icon: fa-solid fa-user-graduate
-  description: Project Manager
+  description: Lab Manager
 
 programmer:
   icon: fa-solid fa-code
