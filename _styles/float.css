@@ -31,5 +31,12 @@
     max-width: unset;
   }
 }
+.clear-float {
+  clear: both;
+}
+
+.member-content {
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=float.css.map */
