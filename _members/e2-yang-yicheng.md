@@ -1,6 +1,6 @@
 ---
 name: Yang Yicheng
-image: images/team/yang_yicheng_photo.jpg
+image: images/team/yang_yicheng_Photo.jpg
 description: Intern
 role: intern
 links:
