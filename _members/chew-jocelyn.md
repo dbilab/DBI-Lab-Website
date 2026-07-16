@@ -16,3 +16,21 @@ links:
 ---
 
 I am an Assistant Professor and Clinician Scientist at the National University of Singapore. I study the use of digital phenotyping—integrating data from wearables, mobile technologies, and clinical biomarkers—to identify early behavioral and metabolic signals of cardiometabolic risk. By combining behavioral science, biomedical informatics, and preventive cardiology, I develop digital health interventions that help detect risk earlier and support sustainable behavior change. Outside of work, I enjoy spending time with my family and going on simple family outings together.
+
+Awards
+
+National Medical Research Council (NMRC) HPHSR Clinician Scientist Award (HCSA)
+
+Stanford/Elsevier Top 2% Scientists List 2025
+
+Tatler Gen.T Leaders of Tomorrow 2025
+
+Yong Loo Lin School of Medicine Young Researcher of the Year Award-2025
+
+Singapore Thoracic Society Young Investigator Award
+
+Stanford/Elsevier Top 2% Scientists List 2024
+
+Singapore Biodesign Innovation Fellowship
+
+National Medical Research Council (NMRC) Research Training Fellowship (RTF)
