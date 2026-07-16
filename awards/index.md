@@ -1,27 +1,18 @@
 ---
-title: Awards
+title: <img src="../images/TeaLogo.png" width="40">
 nav:
   order: 5
-  tooltip: Paper awards and certificates
+  tooltip: Educational Bites
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Awards
+# {% include icon.html icon="fa-solid fa-share-nodes" %}Social Media
 
-National Medical Research Council (NMRC) HPHSR Clinician Scientist Award (HCSA)
+Follow us on our social media channels:
 
-Stanford/Elsevier Top 2% Scientists List 2025
+- [Instagram](https://www.instagram.com/thepreventiontea/)
+- [TikTok](https://www.tiktok.com/@the.prevention.tea)
+- [Email](mailto:thepreventiontea@gmail.com)
 
-Tatler Gen.T Leaders of Tomorrow 2025
-
-Yong Loo Lin School of Medicine Young Researcher of the Year Award-2025
-
-Singapore Thoracic Society Young Investigator Award
-
-Stanford/Elsevier Top 2% Scientists List 2024
-
-Singapore Biodesign Innovation Fellowship
-
-National Medical Research Council (NMRC) Research Training Fellowship (RTF)
 
 {% comment %}
 
