@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.2196/96285
+  title: 'Anticipating the Impact of Artificial Intelligence on Diet and Exercise
+    Applications:  A Foresight Study Applying the Futures Wheel (Preprint)'
+  authors:
+  - Xavier Tadeo
+  - Gyula Seres
+  - Sapphire Lin
+  - Yoann Sapanel
+  - Jocelyn Chew
+  - Dean Ho
+  publisher: Journal of Medical Internet Research
+  date: '2026-03-27'
+  link: https://doi.org/hb4nzt
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.06.15.26355645
   title: Cardiometabolic risk phenogroups from a data-driven classification with expanded
     risk factors
@@ -45,23 +62,6 @@
   publisher: International Journal of Nursing Sciences
   date: '2026-05-01'
   link: https://doi.org/hbzkmv
-  orcid: 0000-0002-4209-1647
-  chew-jocelyn: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.2196/96285
-  title: 'Anticipating the Impact of Artificial Intelligence on Diet and Exercise
-    Applications:  A Foresight Study Applying the Futures Wheel (Preprint)'
-  authors:
-  - Xavier Tadeo
-  - Gyula Seres
-  - Sapphire Lin
-  - Yoann Sapanel
-  - Jocelyn Chew
-  - Dean Ho
-  publisher: Journal of Medical Internet Research
-  date: '2026-03-27'
-  link: https://doi.org/hb4nzt
   orcid: 0000-0002-4209-1647
   chew-jocelyn: true
   plugin: orcid.py
