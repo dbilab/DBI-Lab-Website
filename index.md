@@ -12,7 +12,7 @@
   </div>
   <div class="stat-item">
     <span class="stat-value">{{ project_count }}</span>
-    <span class="stat-label">ACTIVE PROJECTS</span>
+    <span class="stat-label">PROJECTS WITH ACTIVE RECRUITMENT</span>
   </div>
   <div class="stat-item">
     <span class="stat-value">4</span>
