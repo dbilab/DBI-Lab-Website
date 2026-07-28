@@ -172,7 +172,7 @@ To see the main members of our research team via the following link:
   </div>
   
   <div>
-    <h2>Our Research Projects</h2>
+    <h2><a href="{{ '/research/' | relative_url }}" style="color: inherit; text-decoration: none;">Our Research Projects</a></h2>
     <div class="grid" style="--repeat: 2; gap: 20px;">
       {% include list.html data="projects" component="card" style="overlay" filter="group == 'Ongoing'" %}
     </div>

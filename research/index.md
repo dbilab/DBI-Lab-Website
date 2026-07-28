@@ -6,26 +6,25 @@ nav:
 ---
 
 <style>
-/* 1. HIDE SEARCH UI COMPLETELY WHEN SEARCHING (To match Foo Lab clean look) */
-body.is-searching #research-search-area {
+/* 1. THEME MODE STYLES (Activated when ?theme=true in URL) */
+body.is-theme-filtered #research-search-area {
   display: none !important;
 }
 
-/* 2. REMOVE YELLOW HIGHLIGHTS site-wide for Research results */
-mark {
+body.is-theme-filtered mark {
   background: transparent !important;
   color: inherit !important;
   padding: 0 !important;
 }
 
-/* 3. GENERAL STYLES */
+/* 2. GENERAL STYLES */
 #research-list-container h3 {
   margin-top: 40px;
   border-bottom: 1px solid var(--light-gray);
   padding-bottom: 10px;
 }
 
-/* Hide search info stats globally as requested */
+/* Hide search info stats globally */
 .search-info {
   display: none !important;
 }
@@ -55,14 +54,50 @@ mark {
     const listContainer = document.getElementById('research-list-container');
     const noResults = document.getElementById('no-results-msg');
 
-    // SCENARIO: Theme Click or Manual Search (Hide UI if theme flag present)
+    // SCENARIO 1: THEME CLICK (Clean UI)
     if (isTheme && isFiltered) {
-      document.body.classList.add('is-searching');
+      document.body.classList.add('is-theme-filtered');
     } else {
-      document.body.classList.remove('is-searching');
+      document.body.classList.remove('is-theme-filtered');
     }
 
-    // CORE LOGIC: Hide empty years for ANY search
+    // SCENARIO 2: DUPLICATE HIDING (Keep most recent)
+    const titlesSeen = new Map();
+    const allCitations = document.querySelectorAll('.citation');
+    
+    // First, reset all citations so the check is fresh
+    allCitations.forEach(cit => cit.removeAttribute('data-duplicate'));
+
+    allCitations.forEach(cit => {
+      const titleLink = cit.querySelector('.citation-title');
+      if (!titleLink) return;
+      
+      const fullTitle = titleLink.innerText.trim().toLowerCase();
+      // Group by base title (ignore preprints)
+      const baseTitle = fullTitle.split(' (preprint')[0]; 
+      
+      const dateEl = cit.querySelector('.citation-date');
+      const dateStr = dateEl ? dateEl.innerText.trim() : "01 Jan 1900";
+      const timestamp = new Date(dateStr).getTime();
+
+      if (titlesSeen.has(baseTitle)) {
+        const existing = titlesSeen.get(baseTitle);
+        if (timestamp > existing.timestamp) {
+          // Current is newer: hide existing
+          existing.element.setAttribute('data-duplicate', 'true');
+          existing.element.style.setProperty('display', 'none', 'important');
+          titlesSeen.set(baseTitle, { timestamp, element: cit });
+        } else {
+          // Current is older: hide current
+          cit.setAttribute('data-duplicate', 'true');
+          cit.style.setProperty('display', 'none', 'important');
+        }
+      } else {
+        titlesSeen.set(baseTitle, { timestamp, element: cit });
+      }
+    });
+
+    // SCENARIO 3: HIDE EMPTY YEARS
     if (listContainer) {
       const headings = listContainer.querySelectorAll('h3');
       let foundAnyVisible = false;
@@ -71,14 +106,17 @@ mark {
         let hasVisibleCitation = false;
         let nextEl = h3.nextElementSibling;
 
-        // Scan elements until the next year heading (H3)
+        // Scan elements between this H3 and the next H3
         while (nextEl && nextEl.tagName !== 'H3') {
-          // Check if this sibling contains a visible citation
+          // Find the actual citation element inside the container
           const cit = nextEl.classList.contains('citation') ? nextEl : nextEl.querySelector('.citation');
           
           if (cit) {
-            // Check visibility of the actual citation element
-            if (window.getComputedStyle(cit).display !== 'none') {
+            const isMatch = window.getComputedStyle(cit).display !== 'none';
+            const isDuplicate = cit.getAttribute('data-duplicate') === 'true';
+            
+            // Only count as visible if it matches search AND isn't a duplicate
+            if (isMatch && !isDuplicate) {
               hasVisibleCitation = true;
               foundAnyVisible = true;
             }
@@ -86,7 +124,7 @@ mark {
           nextEl = nextEl.nextElementSibling;
         }
 
-        // Strictly hide the heading if no papers match for this year
+        // Apply strict hiding to the year heading
         if (isFiltered) {
           h3.style.setProperty('display', hasVisibleCitation ? 'block' : 'none', 'important');
         } else {
@@ -94,7 +132,7 @@ mark {
         }
       });
 
-      // Show "No Results" message if everything is hidden across all years
+      // Handle "No Results" message
       if (isFiltered && !foundAnyVisible) {
         listContainer.style.display = 'none';
         if (noResults) noResults.style.display = 'block';
@@ -105,8 +143,8 @@ mark {
     }
   }
 
-  // Frequency Check: Overrides the template's dynamic search engine behavior
-  setInterval(updateResearchView, 100);
+  // Frequency Check (50ms) to ensure we win over the default search script
+  setInterval(updateResearchView, 50);
   window.addEventListener('load', updateResearchView);
 })();
 </script>
