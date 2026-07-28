@@ -1,0 +1,46 @@
+[data-dark=false] {
+  --primary: #004a99;
+  --accent: #f97316;
+  --secondary: #e6f0ff;
+  --text: #1a1a1a;
+  --background: #ffffff;
+  --background-alt: #f8f9fa;
+  --light-gray: #ececec;
+  --gray: #6c757d;
+  --dark-gray: #343a40;
+  --overlay: #00000008;
+}
+
+[data-dark=true] {
+  --primary: #4da3ff;
+  --accent: #fb923c;
+  --secondary: #002b5c;
+  --text: #f0f0f0;
+  --background: #0f172a;
+  --background-alt: #1e293b;
+  --light-gray: #334155;
+  --gray: #94a3b8;
+  --dark-gray: #cbd5e1;
+  --overlay: #ffffff05;
+}
+
+:root {
+  --title: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --heading: "Inter", -apple-system, sans-serif;
+  --body: "Inter", -apple-system, sans-serif;
+  --code: "Fira Code", "Roboto Mono", monospace;
+  --large: 1.15rem;
+  --xl: 1.4rem;
+  --xxl: 2.0rem;
+  --thin: 300;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 700;
+  --spacing: 1.8;
+  --compact: 1.4;
+  --rounded: 8px;
+  --shadow: 0 10px 40px -10px rgba(0,0,0,0.1);
+  --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/*# sourceMappingURL=-theme.css.map */
