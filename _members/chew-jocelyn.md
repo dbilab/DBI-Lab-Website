@@ -9,7 +9,7 @@ affiliation: National University of Singapore
 aliases:
   - Jocelyn
 links:
-  home-page: https://medicine.nus.edu.sg/nursing/our-people/our-faculty/assistant-professors/dr-chew-han-shi-jocelyn/
+  home-page: https://medicine.nus.edu.sg/nursing/our-people/our-faculty/assistant-professors/chew-han-shi-jocelyn/
   email: jocelyn.chew.hs@nus.edu.sg
   orcid: 0000-0002-4209-1647
   google-scholar: https://scholar.google.com/citations?user=Pw7AkzYAAAAJ&hl=en&oi=ao
