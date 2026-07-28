@@ -1,28 +1,68 @@
 ---
 ---
 
-# DBI Lab's Website
+{% include section.html size="wide" %}
 
-## Brief Description: 
-DBI Lab is a translational research lab based at the National University of Singapore that integrates behavioral science, digital health, and artificial intelligence to improve cardiometabolic health and population well-being.The lab focuses on working in multidisciplinary teams to develop, evaluate, and implement theory-driven, data-enabled interventions that bridge the intention–behaviour gap in real-world healthcare and community settings.
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-value">2023-</span>
+    <span class="stat-label">LAB ESTABLISHED IN SINGAPORE</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">10+</span>
+    <span class="stat-label">ACTIVE PROJECTS</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">4</span>
+    <span class="stat-label">RESEARCH THEMES</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">2</span>
+    <span class="stat-label">SITES: NUS • NUHS</span>
+  </div>
+</div>
+
+{% include section.html background-alt=true %}
+
+<div class="affiliation-banner">
+  <span class="affiliation-title">AFFILIATED WITH</span>
+  <div class="affiliation-list">
+    <span>National University of Singapore (NUS)</span>
+    <span>National University Health System (NUHS)</span>
+    <span>Yong Loo Lin School of Medicine</span>
+  </div>
+</div>
 
 {% include section.html %}
 
-## Highlights
+<div class="pi-section">
+  <div class="pi-content">
+    <span class="pi-label">PRINCIPAL INVESTIGATOR</span>
+    <h2>Dr Chew Han Shi Jocelyn</h2>
+    <p>Assistant Professor and Clinician Scientist at the National University of Singapore. Studies digital phenotyping, behavioral science, and preventive cardiology to identify early cardiometabolic risk signals and support sustainable behavior change.</p>
+    <div class="button-wrapper">
+      <a href="{{ '/team/chew-jocelyn/' | relative_url }}" class="button" data-style="outline">Read Bio</a>
+    </div>
+  </div>
+  <div class="pi-image">
+    <img src="{{ 'images/team/Prof_Chew_Photo.jpg' | relative_url }}" alt="Dr Jocelyn Chew">
+  </div>
+</div>
 
-{% capture text %}
+{% include section.html %}
 
+<div class="highlights-header">
+  <h2>Highlights</h2>
+  <hr>
+</div>
+
+{% capture research_text %}
 Our research examines how people make health decisions in daily life and how digital technologies can support sustained behaviour change. Key areas include obesity and cardiometabolic disease prevention, self-regulation and motivation, digital phenotyping, just-in-time adaptive interventions (JITAI), and the implementation of AI-enabled health solutions. We combine behavioral theory, clinical data, and advanced analytics to generate evidence that is both scientifically rigorous and clinically actionable.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+<br><br>
+<a href="{{ '/research/' | relative_url }}" style="color: var(--primary); font-weight: var(--bold); text-decoration: none;">
+  See our publications <i class="fa-solid fa-arrow-right"></i>
+</a>
 {% endcapture %}
 
 {%
@@ -30,23 +70,16 @@ Our research examines how people make health decisions in daily life and how dig
   image="images/Research.jpg"
   link="research"
   title="Our Research"
-  text=text
+  text=research_text
 %}
 
-{% capture text %}
+{% capture projects_text %}
+DBI Lab leads and collaborates on interdisciplinary projects spanning digital weight management, cardiometabolic health, body image and weight stigma. Our projects range from observational trials, randomized controlled trials, implementation studies to the co-design and evaluation of digital health tools deployed in healthcare systems and communities.
 
-DBI Lab leads and collaborates on interdisciplinary projects spanning digital weight management, cardiometabolic health, body image and weight stigma.
-Our projects range from observational trials, randomized controlled trials, implementation studies to the co-design and evaluation of digital health tools deployed in healthcare systems and communities.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+<br><br>
+<a href="{{ '/projects/' | relative_url }}" style="color: var(--primary); font-weight: var(--bold); text-decoration: none;">
+  Browse our projects <i class="fa-solid fa-arrow-right"></i>
+</a>
 {% endcapture %}
 
 {%
@@ -55,29 +88,47 @@ Our projects range from observational trials, randomized controlled trials, impl
   link="projects"
   title="Our Projects"
   flip=true
-  style="bare"
-  text=text
+  text=projects_text
 %}
 
-{% capture text %}
+{% capture team_text %}
+To see the main members of our research team via the following link:
 
-To see the main members of our research team via the following link: 
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+<br><br>
+<a href="{{ '/team/' | relative_url }}" style="color: var(--primary); font-weight: var(--bold); text-decoration: none;">
+  Meet our team <i class="fa-solid fa-arrow-right"></i>
+</a>
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/Team_photo.jpg"
+  image="images/Team_photo_updated.jpg"
   link="team"
   title="Our Team"
-  text=text
+  text=team_text
 %}
+
+{% include section.html background-alt=true %}
+
+<div class="grid" style="--repeat: 2; align-items: flex-start;">
+  <div>
+    <h2>Latest News</h2>
+    {% include list.html data="posts" component="post-excerpt" %}
+    <div style="margin-top: 20px;">
+      {%
+        include button.html
+        link="/blog/"
+        text="View more news"
+        icon="fa-solid fa-newspaper"
+        style="bare"
+      %}
+    </div>
+  </div>
+  
+  <div>
+    <h2>Our Research Themes</h2>
+    <div class="grid" style="--repeat: 2; gap: 20px;">
+      {% include list.html data="projects" component="card" style="overlay" filter="group == 'Ongoing'" %}
+    </div>
+  </div>
+</div>

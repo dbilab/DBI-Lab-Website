@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: Digital Behavioral Insights Lab
-subtitle: 
-description: A brief description of DBI Lab.
+title: DBI Lab
+subtitle: Behavioral Science • Digital Health • AI
+description: Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.
 header: images/background.png
 footer: images/background.png
 proofer: false
@@ -37,6 +37,7 @@ collections:
   # generate page for each member
   members:
     output: true
+    permalink: /team/:name/
   # generate page for each post
   posts:
     output: true

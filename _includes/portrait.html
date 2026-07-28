@@ -9,9 +9,22 @@
 
 {% assign type = site.data.types[member.role] %}
 
-<div class="portrait-wrapper">
+{% assign group = "others" %}
+{% if member.role == "principal-investigator" %}
+  {% assign group = "pi" %}
+{% elsif member.role == "ra" or member.role == "pm" %}
+  {% assign group = "staff" %}
+{% elsif member.role == "datascientist" or member.role == "nutritionscientist" %}
+  {% assign group = "scientists" %}
+{% elsif member.role == "phd" or member.role == "undergrad" or member.role == "intern" %}
+  {% assign group = "students" %}
+{% elsif member.role == "associates" %}
+  {% assign group = "engagement" %}
+{% endif %}
+
+<div class="portrait-wrapper" data-group="{{ group }}" data-role="{{ member.role }}">
   <a
-    {% if page.slug != member.slug %}
+    {% if page.url != member.url %}
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
