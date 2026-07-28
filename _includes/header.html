@@ -1,35 +1,31 @@
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% assign svg = "images/logo.svg" | file_exists %}
-{% assign png_transparent = "images/logo.png" | file_exists %}
-{% assign png = "images/logo.png" | file_exists %}
-{% assign jpg = "images/logo.jpg" | file_exists %}
-{% assign logo = nil %}
 {% comment %}
-{% assign logo = png_transparent | default: png | default: svg | default: jpg | default: nil %}
+  Strict check: ONLY show teapot logo on the social media page.
 {% endcomment %}
+{% assign is_social = false %}
+{% if page.url contains "social-media" %}
+  {% assign is_social = true %}
+{% endif %}
+
 <header
   class="background"
   style="--image: url('{{ image | relative_url | uri_escape }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/index.html" or page.url == "" %}
     data-big
   {% endif %}
 >
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/index.html" or page.url == "" %}
     <a href="{{ "/" | relative_url }}" class="home-logo" aria-label="Home">
-      {% if logo %}
-        <span class="logo">
-          {% if logo == svg %}
-            {{ svg | file_read }}
-          {% else %}
-            <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
-          {% endif %}
-        </span>
-      {% endif %}
+       <span class="logo">
+         {% if is_social %}
+            <img src="{{ 'images/TeaLogo.png' | relative_url | uri_escape }}" alt="logo">
+         {% endif %}
+       </span>
     </a>
 
     {% if site.logo-text != false %}
@@ -46,13 +42,9 @@
     {% endif %}
   {% else %}
     <a href="{{ "/" | relative_url }}" class="home">
-      {% if logo %}
+      {% if is_social %}
         <span class="logo">
-          {% if logo == svg %}
-            {{ svg | file_read }}
-          {% else %}
-            <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
-          {% endif %}
+           <img src="{{ 'images/TeaLogo.png' | relative_url | uri_escape }}" alt="logo">
         </span>
       {% endif %}
       {% if site.logo-text != false %}
@@ -87,9 +79,18 @@
     {% endfor %}
   </nav>
 
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/index.html" or page.url == "" %}
     <div class="home-profile" aria-label="Principal Investigator">
       {% include portrait.html lookup="chew-jocelyn" %}
+    </div>
+
+    <div class="hero-content">
+      <h1>Impactful Discoveries in <span>Behavioral Science & Digital Health</span></h1>
+      <p>We study how people make health decisions in daily life and how digital technologies can support sustained behaviour change — bridging the intention–behaviour gap in cardiometabolic health.</p>
+      <div class="hero-buttons">
+        {% include button.html link="projects" text="Explore Our Research" style="accent" %}
+        {% include button.html link="team" text="Meet the Team" style="outline-white" %}
+      </div>
     </div>
   {% endif %}
 </header>

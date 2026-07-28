@@ -144,38 +144,101 @@ header:not([data-big]) {
 }
 
 header[data-big] {
-  // Responsive homepage logo width (logo.png is rectangular).
-  // Tune this to control how large the DBI Lab logo appears.
-  --home-logo-w: clamp(360px, 24vw, 520px);
-  // Extra breathing room from the left edge for the homepage logo.
-  // Use margin (not header padding) so the centered title/nav alignment never shifts.
+  // Responsive homepage logo width
+  --home-logo-w: clamp(280px, 20vw, 400px);
   --home-logo-offset-left: 60px;
-  // PI profile width target (keeps the right block consistent).
   --home-profile-w: 260px;
-  // Keep the homepage title+nav aligned with the main content width (see _styles/section.scss).
-  --home-page-w: 1000px;
+  --home-page-w: 1100px;
 
-  // Desktop layout: logo pinned left, title+nav centered, PI profile pinned right.
   display: grid;
   grid-template-columns: 1fr minmax(0, var(--home-page-w)) 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "logo title profile"
-    "logo nav   profile";
-  column-gap: 20px;
-  row-gap: 18px;
+    "logo nav   profile"
+    "logo hero  profile";
+  column-gap: 40px;
+  row-gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: $big-padding 20px;
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #001a33, #004a99);
+  position: relative;
+  overflow: hidden;
+  color: white;
+  box-shadow: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--image);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
 
   @if $sticky {
     top: unset;
   }
 
+  // Hero Text styling
+  .hero-content {
+    grid-area: hero;
+    text-align: left;
+    max-width: 800px;
+    margin-top: 20px;
+
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      font-weight: var(--bold);
+      line-height: 1.1;
+      margin-bottom: 20px;
+      color: white;
+
+      span {
+        color: var(--accent);
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  a, .title, .subtitle, .portrait-name, .portrait-description, .portrait-affiliation {
+    color: white !important;
+  }
+
+  nav {
+    grid-area: nav;
+    justify-self: start;
+    font-size: 1.1rem;
+    gap: 20px;
+  }
+
+  nav > a:hover {
+    color: var(--secondary) !important;
+  }
+
   .home-logo {
     grid-area: logo;
     justify-self: start;
-    align-self: start;
+    align-self: center;
     margin-left: var(--home-logo-offset-left);
   }
 
@@ -184,8 +247,6 @@ header[data-big] {
     height: auto;
   }
 
-  // Override the global logo sizing rules for homepage so the PNG keeps
-  // its natural aspect ratio while scaling up.
   .home-logo .logo > * {
     width: 100%;
     height: auto;
@@ -193,83 +254,87 @@ header[data-big] {
 
   .home-title {
     grid-area: title;
-    justify-self: center;
-    align-self: start;
+    justify-self: start;
+    align-self: end;
     max-width: 100%;
   }
 
   .home-title .title-text {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-width: 0;
-  }
-
-  nav {
-    // Make homepage navigation more prominent, but still responsive.
-    grid-area: nav;
-    justify-self: center;
-    font-size: clamp(1.05rem, 1.6vw, 1.25rem);
-    gap: 14px;
-  }
-
-  nav > a {
-    padding: 8px 10px;
-  }
-
-  .title {
-    // Home banner title should be visibly larger and responsive.
-    font-size: clamp(2.0rem, 3.6vw, 2.9rem);
-    white-space: nowrap;
-  }
-
-  .subtitle {
-    // Home banner subtitle should scale with viewport, but remain secondary.
-    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+    align-items: flex-start;
+    text-align: left;
   }
 
   .home-profile {
     grid-area: profile;
     justify-self: end;
-    align-self: start;
-    max-width: var(--home-profile-w);
+    align-self: center;
     width: var(--home-profile-w);
   }
 
-  // Tighten the portrait component spacing inside the header.
   .home-profile .portrait {
     margin: 0;
     width: var(--home-profile-w);
-    max-width: 100%;
   }
 
-  .home-profile .portrait-image {
-    margin-bottom: 14px;
+  .hero-featured-card {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 250px;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--rounded);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 2px;
+    }
+
+    span {
+      font-size: 0.7rem;
+      color: white;
+      opacity: 0.8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
   }
 
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
       "logo"
       "title"
-      "profile"
-      "nav";
+      "nav"
+      "hero"
+      "profile";
     column-gap: 0;
     row-gap: 20px;
+    padding: 40px 20px;
 
     .home-profile {
       justify-self: center;
-      max-width: 320px;
     }
 
-    .home-logo {
+    .home-logo, .home-title, nav, .hero-content {
       justify-self: center;
+      text-align: center;
     }
 
-    // On smaller screens, allow wrapping instead of overflow.
-    .title {
-      white-space: normal;
+    .home-title .title-text, .hero-content {
+        align-items: center;
+    }
+
+    .hero-featured-card {
+      display: none;
     }
   }
 }
