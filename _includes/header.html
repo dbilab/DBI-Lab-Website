@@ -1,13 +1,6 @@
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% comment %}
-  Strict check: ONLY show teapot logo on the social media page.
-{% endcomment %}
-{% assign is_social = false %}
-{% if page.url contains "social-media" %}
-  {% assign is_social = true %}
-{% endif %}
 
 <header
   class="background"
@@ -20,13 +13,6 @@
   {% endif %}
 >
   {% if page.url == "/" or page.url == "/index.html" or page.url == "" %}
-    <a href="{{ "/" | relative_url }}" class="home-logo" aria-label="Home">
-       <span class="logo">
-         {% if is_social %}
-            <img src="{{ 'images/TeaLogo.png' | relative_url | uri_escape }}" alt="logo">
-         {% endif %}
-       </span>
-    </a>
 
     {% if site.logo-text != false %}
       <a href="{{ "/" | relative_url }}" class="home-title" data-tooltip="Home" aria-label="Home">
@@ -42,11 +28,6 @@
     {% endif %}
   {% else %}
     <a href="{{ "/" | relative_url }}" class="home">
-      {% if is_social %}
-        <span class="logo">
-           <img src="{{ 'images/TeaLogo.png' | relative_url | uri_escape }}" alt="logo">
-        </span>
-      {% endif %}
       {% if site.logo-text != false %}
         <span class="title-text" data-tooltip="Home">
           {% if site.title and site.show-title != false %}
