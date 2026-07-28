@@ -43,22 +43,22 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Team | Digital Behavioral Insights Lab</title>
+<title>Team | DBI Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
 <meta name="title" content="Team">
-<meta name="description" content="A brief description of DBI Lab.">
+<meta name="description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
 
 <meta property="og:title" content="Team">
-<meta property="og:site_title" content="Digital Behavioral Insights Lab">
-<meta property="og:description" content="A brief description of DBI Lab.">
+<meta property="og:site_title" content="DBI Lab">
+<meta property="og:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
 <meta property="og:url" content="http://dbi-lab.com">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Team">
-<meta property="twitter:description" content="A brief description of DBI Lab.">
+<meta property="twitter:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
 <meta property="twitter:url" content="http://dbi-lab.com">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
@@ -74,7 +74,7 @@
       "@type": "WebSite",
     
     "name": "Team",
-    "description": "A brief description of DBI Lab.",
+    "description": "Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.",
     "headline": "Team",
     "publisher": {
       "@type": "Organization",
@@ -90,7 +90,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Fira+Code" mono:ital blinkmacsystemfont ui:ital rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -365,6 +365,8 @@
 
   <script src="/_scripts/table-wrap.js"></script>
 
+  <script src="/_scripts/team.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -378,8 +380,6 @@
 
 
 
-
-
 <header class="background" style="--image: url('/images/background.png')" data-dark="true">
   
     <a href="/" class="home">
@@ -387,8 +387,10 @@
       
         <span class="title-text" data-tooltip="Home">
           
-            <span class="title">Digital Behavioral Insights Lab</span>
+            <span class="title">DBI Lab</span>
           
+          
+            <span class="subtitle">Behavioral Science • Digital Health • AI</span>
           
         </span>
       
@@ -425,8 +427,8 @@
       
     
       
-        <a href="/awards/" data-tooltip="Educational Bites">
-          <img src="../images/TeaLogo.png" width="40">
+        <a href="/social-media/" data-tooltip="Educational Bites">
+          SOCIAL MEDIA
         </a>
       
     
@@ -458,22 +460,48 @@
   
   
   
-
-  <section class="background" data-size="page">
-    <h1 id="team">
-<i class="icon fa-solid fa-users"></i>Team</h1>
-
-<p>Following are main members in our research lab.</p>
-  </section>
-
-  
-  
-  
   
 
   <section class="background" data-size="page">
-    <div class="portrait-wrapper">
-  <a href="/members/chew-jocelyn.html" class="portrait" data-style="" aria-label="Dr Chew Han Shi Jocelyn">
+    <h1 id="meet-our-team">
+<i class="icon fa-solid fa-users"></i>Meet our Team</h1>
+
+<p>DBI Lab is comprised of a multidisciplinary team of behavioral scientists, data scientists, and clinicians dedicated to improving cardiometabolic health through digital innovation.</p>
+
+<div class="team-filter-container" id="team-filter-bar" style="position: sticky; top: 100px; z-index: 1000; background: white; padding: 15px; border-radius: 50px; margin-bottom: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); display: flex; justify-content: center; gap: 10px; pointer-events: auto;">
+  <button class="team-tab-btn active" data-filter="all">All Members</button>
+  <button class="team-tab-btn" data-filter="pi">PI</button>
+  <button class="team-tab-btn" data-filter="researchers">Researchers</button>
+  <button class="team-tab-btn" data-filter="students">Students</button>
+  <button class="team-tab-btn" data-filter="engagement">Engagement</button>
+</div>
+
+<div class="team-grid-container" id="team-grid">
+  <div class="team-group-section" data-group="pi">
+    <h2 class="team-group-title">Principal Investigator</h2>
+    <div class="team-grid">
+      
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="pi" data-role="principal-investigator">
+  <a href="/team/chew-jocelyn/" class="portrait" data-style="card" aria-label="Dr Chew Han Shi Jocelyn">
     
       <i class="icon fa-solid fa-microscope"></i>
     
@@ -502,8 +530,37 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d1-wen-wei.html" class="portrait" data-style="" aria-label="Ang Wen Wei">
+  
+
+
+    </div>
+  </div>
+
+  <div class="team-group-section" data-group="researchers">
+    <h2 class="team-group-title">Researchers</h2>
+    <div class="team-grid">
+      
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="staff" data-role="pm">
+  <a href="/team/d1-wen-wei/" class="portrait" data-style="card" aria-label="Ang Wen Wei">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -526,8 +583,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d2-Karishma.html" class="portrait" data-style="" aria-label="Karishma Amudha">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="scientists" data-role="datascientist">
+  <a href="/team/d2-karishma/" class="portrait" data-style="card" aria-label="Karishma Amudha">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -550,8 +617,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d3-wang-shijie.html" class="portrait" data-style="" aria-label="Wang Shijie">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="scientists" data-role="datascientist">
+  <a href="/team/d3-wang-shijie/" class="portrait" data-style="card" aria-label="Wang Shijie">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -574,8 +651,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d4-Trang.html" class="portrait" data-style="" aria-label="Trang La">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="scientists" data-role="nutritionscientist">
+  <a href="/team/d4-trang/" class="portrait" data-style="card" aria-label="Trang La">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -598,8 +685,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d5-jessie-lim-jun-min.html" class="portrait" data-style="" aria-label="Jessie Lim Jun Min">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="staff" data-role="ra">
+  <a href="/team/d5-jessie-lim-jun-min/" class="portrait" data-style="card" aria-label="Jessie Lim Jun Min">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -622,8 +719,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d6-ng-jing-xuan.html" class="portrait" data-style="" aria-label="Ng Jing Xuan">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="staff" data-role="ra">
+  <a href="/team/d6-ng-jing-xuan/" class="portrait" data-style="card" aria-label="Ng Jing Xuan">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -646,8 +753,37 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d7-jennell-koh-jia-ying.html" class="portrait" data-style="" aria-label="Koh Jia Ying Jennell">
+  
+
+
+    </div>
+  </div>
+
+  <div class="team-group-section" data-group="students">
+    <h2 class="team-group-title">Students &amp; Interns</h2>
+    <div class="team-grid">
+      
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="students" data-role="phd">
+  <a href="/team/d7-jennell-koh-jia-ying/" class="portrait" data-style="card" aria-label="Koh Jia Ying Jennell">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -670,8 +806,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d8-ziyi-peng.html" class="portrait" data-style="" aria-label="Peng Ziyi">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="students" data-role="undergrad">
+  <a href="/team/d8-ziyi-peng/" class="portrait" data-style="card" aria-label="Peng Ziyi">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -694,8 +840,69 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/d9-chloe-goh.html" class="portrait" data-style="" aria-label="Chloe Goh Si Pei">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="students" data-role="intern">
+  <a href="/team/e2-yang-yicheng/" class="portrait" data-style="card" aria-label="Yang Yicheng">
+    
+
+    <img src="/images/team/yang_yicheng_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yang Yicheng
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Intern
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+
+
+    </div>
+  </div>
+
+  <div class="team-group-section" data-group="engagement">
+    <h2 class="team-group-title">Digital Engagement</h2>
+    <div class="team-grid">
+      
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="engagement" data-role="associates">
+  <a href="/team/d9-chloe-goh/" class="portrait" data-style="card" aria-label="Chloe Goh Si Pei">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -718,8 +925,18 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/e1-lim-kaizhe.html" class="portrait" data-style="" aria-label="Lim Kai Zhe">
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="engagement" data-role="associates">
+  <a href="/team/e1-lim-kaizhe/" class="portrait" data-style="card" aria-label="Lim Kai Zhe">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -742,26 +959,11 @@ Assistant Professor<br>
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/e2-yang-yicheng.html" class="portrait" data-style="" aria-label="Yang Yicheng">
-    
+  
 
-    <img src="/images/team/yang_yicheng_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-name">
-        Yang Yicheng
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Intern
-      </span>
-    
-
-    
-  </a>
+    </div>
+  </div>
 </div>
   </section>
 
@@ -769,13 +971,28 @@ Assistant Professor<br>
   
   
   
+  
 
-  <section class="background" data-size="2" data-dark="true" style="--image: url('/images/background.png')">
+  <section class="background" data-size="1" style="background: var(--background-alt) !important;">
     <!--
-  <background>images/background.png</background>
-  <dark>true</dark>
-  <size>2</size>
+  
+  <background-alt>true</background-alt>
+  
+  <size>1</size>
 -->
+
+<h2 id="join-us">Join Us</h2>
+
+<p>We are always looking for passionate individuals to join our lab. If you are interested in behavioral science, digital health, or AI, please reach out to us.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/contact" data-style="outline" aria-label="fa-solid fa-envelope">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Contact Us</span>
+      
+    </a>
+  </div>
   </section>
 
 
@@ -841,7 +1058,7 @@ Assistant Professor<br>
 
   <div>
   © 2026
-  Digital Behavioral Insights Lab
+  DBI Lab
 </div>
   
   
