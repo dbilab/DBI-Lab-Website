@@ -13,6 +13,8 @@
   {% endif %}
 >
   {% if page.url == "/" or page.url == "/index.html" or page.url == "" %}
+    <a href="{{ "/" | relative_url }}" class="home-logo" aria-label="Home">
+    </a>
 
     {% if site.logo-text != false %}
       <a href="{{ "/" | relative_url }}" class="home-title" data-tooltip="Home" aria-label="Home">
@@ -69,7 +71,7 @@
       <h1>Impactful Discoveries in <span>Behavioral Science & Digital Health</span></h1>
       <p>We study how people make health decisions in daily life and how digital technologies can support sustained behaviour change — bridging the intention–behaviour gap in cardiometabolic health.</p>
       <div class="hero-buttons">
-        {% include button.html link="projects" text="Explore Our Research" style="accent" %}
+        {% include button.html link="research" text="Explore Our Research" style="accent" %}
         {% include button.html link="team" text="Meet the Team" style="outline-white" %}
       </div>
     </div>

@@ -3,6 +3,8 @@ name: Karishma Amudha
 image: images/team/Karishma_photo.jpg
 description: Data Scientist
 role: datascientist
+links:
+  email: karishma.ca_01@nus.edu.sg
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: NUS researchers honoured as visionaries shaping Asia’s future
-image: images/Blogs/blog1_1.png
+image: images/News/news1_1.png
 author: NUS
 tags: medicine, research, leadership
 ---

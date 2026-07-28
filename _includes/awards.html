@@ -1,0 +1,16 @@
+{% if include.awards and include.awards.size > 0 %}
+  <h2><i class="fa-solid fa-award"></i> Awards</h2>
+  <div class="card" style="width: 100%; max-width: 100%; margin: 20px 0; padding: 0 30px; align-items: stretch;">
+    <div style="display: flex; flex-direction: column; width: 100%;">
+      {% for award in include.awards %}
+      <div style="display: flex; gap: 15px; align-items: flex-start; padding: 20px 0; {% unless forloop.last %}border-bottom: 1px solid var(--light-gray);{% endunless %}">
+        <i class="fa-solid fa-award" style="color: var(--primary); font-size: 1.1rem; margin-top: 3px; flex-shrink: 0;"></i>
+        <div style="text-align: left;">
+          <div style="font-weight: var(--semi-bold); color: var(--text); line-height: 1.4;">{{ award.title }}</div>
+          <div style="font-size: 0.9rem; color: var(--gray); margin-top: 2px;">{{ award.year }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

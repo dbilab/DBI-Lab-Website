@@ -1,6 +1,6 @@
 ---
 title: Solving the healthcare challenges of tomorrow, today
-image: images/Blogs/post-25-09-15.png
+image: images/News/post-25-09-15.png
 author: NUS
 ---
 
