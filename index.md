@@ -158,12 +158,12 @@ To see the main members of our research team via the following link:
 
 <div class="grid" style="--repeat: 2; align-items: flex-start;">
   <div>
-    <h2>Latest News</h2>
+    <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">Latest News</a></h2>
     {% include list.html data="posts" component="post-excerpt" %}
     <div style="margin-top: 20px;">
       {%
         include button.html
-        link="/blog/"
+        link="/news/"
         text="View more news"
         icon="fa-solid fa-newspaper"
         style="bare"
@@ -172,7 +172,7 @@ To see the main members of our research team via the following link:
   </div>
   
   <div>
-    <h2><a href="{{ '/research/' | relative_url }}" style="color: inherit; text-decoration: none;">Our Research Projects</a></h2>
+    <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit; text-decoration: none;">Our Research Projects</a></h2>
     <div class="grid" style="--repeat: 2; gap: 20px;">
       {% include list.html data="projects" component="card" style="overlay" filter="group == 'Ongoing'" %}
     </div>
