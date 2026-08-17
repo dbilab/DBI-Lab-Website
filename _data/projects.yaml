@@ -42,6 +42,20 @@
   repo: greenelab/lab-website-template
   
 
+- title: preMELOW
+  group: Ongoing
+  image: images/Posters/preMellow_Poster.png
+  link: https://nus.syd1.qualtrics.com/jfe/form/SV_aVOpl4bGCEGE7f8
+  repo: greenelab/lab-website-template
+
+
+- title: PRISM
+  group: Upcoming
+  image: images/Posters/PRISM_Poster.jpg
+  link: https://nus.syd1.qualtrics.com/jfe/form/SV_26oE4VtLWqaTPOm
+  repo: greenelab/lab-website-template
+
+
 - title: Cool Web Server
   image: images/photo.jpg
   link: https://github.com/
