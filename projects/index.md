@@ -24,6 +24,12 @@ Our projects range from observational trials, randomized controlled trials, impl
 
 {% include section.html %}
 
+## Recruitment: Upcoming
+
+{% include list.html component="card" data="projects" filter="group == 'Upcoming'" %}
+
+{% include section.html %}
+
 ## Recruitment: Closed
 
 {% include list.html component="card" data="projects" filter="group == 'Closed'" %}
