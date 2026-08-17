@@ -42,12 +42,10 @@
   repo: greenelab/lab-website-template
   
 
-- title: preMellow
+- title: preMELOW
   group: Ongoing
   image: images/Posters/preMellow_Poster.png
   link: https://nus.syd1.qualtrics.com/jfe/form/SV_aVOpl4bGCEGE7f8
-  description: >-
-    A new project focusing on behavioral insights and health outcomes.
   repo: greenelab/lab-website-template
 
 
@@ -55,8 +53,6 @@
   group: Upcoming
   image: images/Posters/PRISM_Poster.jpg
   link: https://nus.syd1.qualtrics.com/jfe/form/SV_26oE4VtLWqaTPOm
-  description: >-
-    Exploring psychological resilience and integrated self-management.
   repo: greenelab/lab-website-template
 
 
