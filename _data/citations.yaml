@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/nursrep16080283
+  title: Development and Validation of an Interpretable Machine Learning Model for
+    Inpatient Fall Risk Using Electronic Health Record Data
+  authors:
+  - Siti Zubaidah Mordiffi
+  - Xiujuan Guo
+  - Mien Li Goh
+  - Kee Yuan Ngiam
+  - Neng Wei Wong
+  - Jenny Chua
+  - Mohammad Shaheryar Furqan
+  - Han Shi Jocelyn Chew
+  publisher: Nursing Reports
+  date: '2026-08-13'
+  link: https://doi.org/hcfwjs
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.2196/96285
   title: 'Anticipating the Impact of Artificial Intelligence on Diet and Exercise
     Applications:  A Foresight Study Applying the Futures Wheel (Preprint)'
