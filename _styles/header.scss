@@ -162,7 +162,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   padding: 100px 40px;
-  background: linear-gradient(135deg, #001a33, #004a99);
+  background: linear-gradient(135deg, #020617, #1e293b);
   position: relative;
   overflow: hidden;
   color: white;
@@ -220,7 +220,7 @@ header[data-big] {
     }
   }
 
-  a, .title, .subtitle, .portrait-name, .portrait-description, .portrait-affiliation {
+  a:not(.button), .title, .subtitle, .portrait-name, .portrait-description, .portrait-affiliation {
     color: white !important;
   }
 
