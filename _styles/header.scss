@@ -120,7 +120,7 @@ nav > a {
 }
 
 nav > a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 header:not([data-big]) {
@@ -232,7 +232,7 @@ header[data-big] {
   }
 
   nav > a:hover {
-    color: var(--secondary) !important;
+    color: var(--accent) !important;
   }
 
   .home-logo {
