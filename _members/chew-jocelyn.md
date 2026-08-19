@@ -32,5 +32,5 @@ awards:
     year: 2024
 ---
 
-I am an Assistant Professor and Clinician Scientist at the National University of Singapore. I study the use of digital phenotyping—integrating data from wearables, mobile technologies, and clinical biomarkers—to identify early behavioral and metabolic signals of cardiometabolic risk. By combining behavioral science, biomedical informatics, and preventive cardiology, I develop digital health interventions that help detect risk earlier and support sustainable behavior change. Outside of work, I enjoy spending time with my family and going on simple family outings together.
+I am an Assistant Professor and Clinician Scientist at the National University of Singapore. I study the use of digital phenotyping, which integrates data from wearables, mobile technologies, and clinical biomarkers to identify early behavioral and metabolic signals of cardiometabolic risk. By combining behavioral science, biomedical informatics, and preventive cardiology, I develop digital health interventions that help detect risk earlier and support sustainable behavior change. Outside of work, I enjoy spending time with my family and going on simple family outings together.
 

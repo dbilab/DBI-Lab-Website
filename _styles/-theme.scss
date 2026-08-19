@@ -3,25 +3,25 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #004a99;      // Deep professional blue
-  --accent: #f97316;       // Orange accent like Foo Lab
-  --secondary: #e6f0ff;
-  --text: #1a1a1a;
+  --primary: #1e293b;      // Dark Slate (Sophisticated & Academic)
+  --accent: #0ea5e9;       // Cyber Blue (AI & Digital Health)
+  --secondary: #f1f5f9;    // Light Steel
+  --text: #0f172a;
   --background: #ffffff;
-  --background-alt: #f8f9fa;
-  --light-gray: #ececec;
-  --gray: #6c757d;
-  --dark-gray: #343a40;
-  --overlay: #00000008;
+  --background-alt: #f8fafc;
+  --light-gray: #e2e8f0;
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --overlay: #00000005;
 }
 [data-dark="true"] {
-  --primary: #4da3ff;
-  --accent: #fb923c;
-  --secondary: #002b5c;
-  --text: #f0f0f0;
-  --background: #0f172a;
-  --background-alt: #1e293b;
-  --light-gray: #334155;
+  --primary: #38bdf8;      // Sky 400
+  --accent: #7dd3fc;       // Sky 300
+  --secondary: #0f172a;    // Dark Slate
+  --text: #f1f5f9;
+  --background: #020617;
+  --background-alt: #0f172a;
+  --light-gray: #1e293b;
   --gray: #94a3b8;
   --dark-gray: #cbd5e1;
   --overlay: #ffffff05;
