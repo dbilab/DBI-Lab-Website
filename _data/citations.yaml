@@ -20,36 +20,36 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.2196/96285
-  title: 'Anticipating the Impact of Artificial Intelligence on Diet and Exercise
-    Applications:  A Foresight Study Applying the Futures Wheel (Preprint)'
+  title: 'Anticipating the Impact of AI on Diet and Exercise Apps: Foresight Study
+    Applying the Futures Wheel'
   authors:
   - Xavier Tadeo
   - Gyula Seres
   - Sapphire Lin
   - Yoann Sapanel
-  - Jocelyn Chew
+  - Han Shi Jocelyn Chew
   - Dean Ho
   publisher: Journal of Medical Internet Research
-  date: '2026-03-27'
+  date: '2026-07-16'
   link: https://doi.org/hb4nzt
   orcid: 0000-0002-4209-1647
   chew-jocelyn: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.64898/2026.06.15.26355645
-  title: Cardiometabolic risk phenogroups from a data-driven classification with expanded
-    risk factors
+  title: Data-driven cardiometabolic phenogroups reveal distinct subclinical cardiac
+    and proteomic profiles
   authors:
   - Jiayu Feng
   - Jocelyn Han Shi Chew
   - Hangkuan Liu
+  - Liang Zhao
   - Nadja Mikulic
   - Abhinit Kumar Ambastha
   - Melvin Khee Shing Leow
   - Derek John Hausenloy
   - Mark Dhinesh Muthiah
   - Wenru Wang
-  - Lieng Hsi Ling
   - Michael Wei Liang Chee
   - Ju Lynn Ong
   - Calvin Woon Loong Chin
@@ -59,6 +59,7 @@
   - Xin Zhou
   - Qing Yang
   - Josip Car
+  - Lieng Hsi Ling
   - Roger Foo
   publisher: openRxiv
   date: '2026-06-24'
