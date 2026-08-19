@@ -106,7 +106,7 @@ nav > a {
 }
 
 nav > a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 @media (max-width: 700px) {
@@ -140,7 +140,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   padding: 100px 40px;
-  background: linear-gradient(135deg, #001a33, #004a99);
+  background: linear-gradient(135deg, #020617, #1e293b);
   position: relative;
   overflow: hidden;
   color: white;
@@ -189,7 +189,7 @@ header[data-big] .hero-content .hero-buttons {
   display: flex;
   gap: 20px;
 }
-header[data-big] a, header[data-big] .title, header[data-big] .subtitle, header[data-big] .portrait-name, header[data-big] .portrait-description, header[data-big] .portrait-affiliation {
+header[data-big] a:not(.button), header[data-big] .title, header[data-big] .subtitle, header[data-big] .portrait-name, header[data-big] .portrait-description, header[data-big] .portrait-affiliation {
   color: white !important;
 }
 header[data-big] nav {
@@ -199,7 +199,7 @@ header[data-big] nav {
   gap: 20px;
 }
 header[data-big] nav > a:hover {
-  color: var(--secondary) !important;
+  color: var(--accent) !important;
 }
 header[data-big] .home-logo {
   grid-area: logo;
