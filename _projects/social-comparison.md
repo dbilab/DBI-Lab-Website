@@ -21,4 +21,4 @@ important:
   - "Thank you to all our participants for their contributions."
 ---
 
-The Social Comparison study investigates how looking at others' eating habits—either those we perceive as 'better' or 'worse' than ours—affects our own daily caloric consumption.
+The Social Comparison study investigates how looking at others' eating habits - either those we perceive as 'better' or 'worse' than ours - affects our own daily caloric consumption.

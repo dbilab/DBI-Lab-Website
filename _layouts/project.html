@@ -5,6 +5,12 @@ layout: default
 {% assign group = page.group | downcase %}
 {% include section.html size="wide" %}
 
+<div class="project-back">
+  <a href="{{ '/projects/' | relative_url }}" class="back-link">
+    <i class="fa-solid fa-arrow-left-long"></i> Back to Projects
+  </a>
+</div>
+
 {% include project-nav.html active=group %}
 
 <div class="project-header">
