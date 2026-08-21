@@ -21,4 +21,4 @@ important:
   - "Thank you to all our participants for their contributions."
 ---
 
-The Social Comparison study investigates how looking at others' eating habits - either those we perceive as 'better' or 'worse' than ours - affects our own daily caloric consumption.
+The Social Comparison study examines the psychological mechanisms underlying dietary behaviors, specifically focusing on how social comparison directions influence daily caloric consumption. By investigating how individuals respond to perceived variations in others' eating habits, this research aims to identify behavioral triggers that impact nutritional choices and self-regulation.

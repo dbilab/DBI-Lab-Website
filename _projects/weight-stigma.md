@@ -20,4 +20,4 @@ benefits:
 benefits_note: "* completing the survey does not necessarily mean you will receive $50 (lucky draw)"
 ---
 
-This study aims to investigate the complex relationships between body image, weight stigma, and the formation of professional identity among current and future healthcare providers. By sharing your perspectives, you help shape interventions to reduce weight stigma in clinical settings.
+This research investigates the intricate relationships between body image, weight stigma, and the development of professional identity among healthcare students and practitioners. By documenting these perspectives, the study aims to inform the design of targeted interventions to mitigate weight stigma within clinical environments and enhance the long-term well-being of the healthcare workforce.

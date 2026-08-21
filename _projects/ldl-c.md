@@ -22,4 +22,4 @@ important:
   - "You can withdraw from the study at any time without giving a reason."
 ---
 
-We invite you to join a small, optional sub-study focused on improving LDL-C levels through personalized health messaging. This study explores how personality-tailored information can support better self-regulation of heart health.
+The LDL-C sub-study investigates the efficacy of personalized health messaging in improving cholesterol management. By utilizing personality-tailored information grounded in behavioral science, this research explores how individualized communication can enhance the self-regulation of heart health. We invite current participants to join this optional investigation into the intersection of personality and cardiometabolic wellness.

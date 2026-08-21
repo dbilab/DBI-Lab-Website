@@ -1,21 +1,38 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.url %}
-      href="{{ include.url | relative_url | uri_escape }}"
-    {% elsif include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
-    class="card-image"
-  >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
-      loading="lazy"
-      {% include fallback.html %}
+  {% if include.url contains '/projects/' %}
+    <a
+      href="{{ include.image | relative_url | uri_escape }}"
+      target="_blank"
+      aria-label="Enlarge {{ include.title | default: "poster" }}"
+      class="card-image project-poster-link"
     >
-  </a>
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        alt="{{ include.title | default: "card image" | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+      <div class="poster-zoom-overlay">
+        <i class="fa-solid fa-magnifying-glass-plus"></i> ENLARGE
+      </div>
+    </a>
+  {% else %}
+    <a
+      {% if include.link %}
+        href="{{ include.link | relative_url | uri_escape }}"
+      {% endif %}
+      aria-label="{{ include.title | default: "card link" | regex_strip }}"
+      class="card-image"
+    >
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        alt="{{ include.title | default: "card image" | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}
@@ -34,14 +51,24 @@
     </a>
     {% endif %}
 
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
+    {% assign subtitle = include.subtitle | default: include.full_title %}
+    {% if subtitle %}
+      <span class="card-subtitle">{{ subtitle }}</span>
     {% endif %}
 
-    {% if include.description %}
-      <p>
-        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </p>
+    {% assign description = include.description | default: include.content %}
+    {% if description %}
+      <div class="card-description">
+        {{ description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </div>
+    {% endif %}
+
+    {% if include.external_link %}
+      <div class="card-actions">
+        <a href="{{ include.external_link }}" target="_blank" class="button primary small">
+          JOIN NOW
+        </a>
+      </div>
     {% endif %}
 
     {% if include.tags or include.repo %}
