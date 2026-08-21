@@ -2,7 +2,7 @@
 title: preMELOW
 full_title: "Understanding Perimenopausal Symptom Experiences in Singaporean Women"
 group: Ongoing
-image: images/Posters/preMellow_Poster.png
+image: images/Posters/preMelow_Poster.png
 external_link: https://nus.syd1.qualtrics.com/jfe/form/SV_aVOpl4bGCEGE7f8
 repo: greenelab/lab-website-template
 process:
