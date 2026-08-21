@@ -123,13 +123,13 @@ nav:
 }
 
 .health-promotion-section {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .promotion-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
@@ -139,7 +139,7 @@ nav:
   overflow: hidden;
   box-shadow: var(--shadow);
   border: 1px solid var(--light-gray);
-  transition: transform var(--transition), box-shadow var(--transition);
+  transition: all var(--transition);
 }
 
 .promotion-card:hover {
