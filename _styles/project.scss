@@ -21,8 +21,10 @@
 }
 
 .project-back {
-  max-width: 1000px;
-  margin: 0 auto 1.5rem auto;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .back-link {
@@ -31,20 +33,21 @@
   gap: 0.5rem;
   text-decoration: none;
   color: var(--gray);
-  font-weight: var(--bold);
-  font-size: 0.8rem;
+  font-weight: var(--semi-bold);
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   transition: all var(--transition);
 
   i {
+    font-size: 0.9rem;
     transition: transform var(--transition);
   }
 
   &:hover {
     color: var(--primary);
     i {
-      transform: translateX(-5px);
+      transform: translateX(-3px);
     }
   }
 }
