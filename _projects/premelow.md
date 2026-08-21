@@ -18,4 +18,6 @@ benefits:
   - "**$50 reimbursement** provided as compensation for your time and travel."
 ---
 
-The preMELOW study aims to explore the lived experiences of perimenopausal symptoms among Singaporean women. We seek to understand the various factors that may have triggered or alleviated these symptoms to better support women's health during this transition.
+The preMELOW study explores the multifaceted experiences of perimenopause and post-menopause among women in Singapore. The transition into menopause is a significant biological and psychological phase, yet the factors that influence the severity and duration of symptoms remain insufficiently understood in the local context.
+
+Through this research, we seek to identify specific environmental, biological, and lifestyle factors that may trigger or alleviate menopausal symptoms. By documenting these lived experiences, our goal is to develop better clinical and community-based support systems for women navigating this life transition.
