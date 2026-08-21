@@ -7,7 +7,6 @@ external_link: https://nus.syd1.qualtrics.com/jfe/form/SV_4N2FVM4XXTHDPkq
 repo: greenelab/lab-website-template
 process:
   - "1st Questionnaire: Complete a short survey during your study visit (approx. 15 mins)."
-  - "Return of Results: Proceed with the standard return of results as per the RESET study."
   - "2nd Questionnaire: Complete a follow-up survey 3 months after receiving your results (approx. 5 mins)."
 eligibility:
   - "Aged 40 – 70 years old"
