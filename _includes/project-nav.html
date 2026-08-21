@@ -1,0 +1,22 @@
+<nav class="project-nav" aria-label="Project Recruitment Status">
+  <div class="project-nav-header">
+    <span class="project-nav-label">RECRUITMENT STATUS</span>
+  </div>
+  <ul class="project-nav-list">
+    <li class="project-nav-item-wrapper">
+      <a href="{{ '/projects/#ongoing' | relative_url }}" class="project-nav-item {% if include.active == 'ongoing' %}active{% endif %}">
+        ONGOING
+      </a>
+    </li>
+    <li class="project-nav-item-wrapper">
+      <a href="{{ '/projects/#upcoming' | relative_url }}" class="project-nav-item {% if include.active == 'upcoming' %}active{% endif %}">
+        UPCOMING
+      </a>
+    </li>
+    <li class="project-nav-item-wrapper">
+      <a href="{{ '/projects/#closed' | relative_url }}" class="project-nav-item {% if include.active == 'closed' %}active{% endif %}">
+        CLOSED
+      </a>
+    </li>
+  </ul>
+</nav>

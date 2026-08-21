@@ -1,7 +1,7 @@
 ---
 ---
 
-{% assign project_count = site.data.projects | where: "group", "Ongoing" | size %}
+{% assign project_count = site.projects | where: "group", "Ongoing" | size %}
 
 {% include section.html size="wide" %}
 

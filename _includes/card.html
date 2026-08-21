@@ -1,7 +1,9 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
   <a
-    {% if include.link %}
+    {% if include.url %}
+      href="{{ include.url | relative_url | uri_escape }}"
+    {% elsif include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
@@ -18,7 +20,9 @@
   <div class="card-text">
     {% if include.title %}
       <a
-        {% if include.link %}
+        {% if include.url %}
+          href="{{ include.url | relative_url | uri_escape }}"
+        {% elsif include.link %}
           href="{{ include.link | relative_url | uri_escape }}"
         {% endif %}
         {% if include.tooltip %}
