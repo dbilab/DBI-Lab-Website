@@ -1,24 +1,30 @@
 ---
 title: MELOW
-full_title: "MEtabolic Lifestyle and Omics for Wellness: A Precision Health Initiative"
+full_title: "Midlife Empowerment and Longevity through Optimizing Wellness"
 group: Upcoming
 image: images/Posters/MELOW_Poster.png
 external_link: #
 repo: greenelab/lab-website-template
 process:
-  - "Participate in a comprehensive **longitudinal metabolic assessment**."
-  - "Utilize **wearable technology** for continuous physiological monitoring."
-  - "Engage with **personalized lifestyle interventions** informed by omics data."
+  - "Attend **three in-person clinic visits** for clinical measurements and blood sampling (Baseline, 6 months, and 12 months)."
+  - "Complete **online questionnaires** at Baseline, 6 months, and 12 months."
+  - "Utilize **Continuous Glucose Monitoring (CGM)** for a period of 15 days."
+  - "Wear a **smart ring** for 12 months to monitor physiological data."
+  - "Regularly engage with a dedicated **research application** for the duration of the study."
 eligibility:
-  - "Adults interested in **precision health and metabolic wellness**."
-  - "Willing to provide **biological samples** for longitudinal analysis."
-  - "Committed to a **multi-month** study protocol."
+  - "**Women aged 21–65** years old."
+  - "Report **mild climacteric symptoms** (MRS score ≥ 5)."
+  - "**Waist Circumference** ≥ 80 cm."
+  - "Possess a personal mobile device compatible with CGM and smart ring technology."
 benefits:
-  - "Receive a **comprehensive metabolic health profile**."
-  - "Gain access to **personalized health insights** based on your unique data."
-  - "Contribute to the advancement of **precision medicine** in Singapore."
+  - "Receive a **comprehensive health screening** and blood results."
+  - "Obtain a **detailed body composition analysis**."
+  - "Gain personalized access to your **metabolic and physiological health data** via wearable technology."
+important:
+  - "**Exclusion criteria include**: Use of HRT or contraceptives, severe psychiatric illness, participation in concurrent clinical trials, or uncontrolled chronic conditions."
+  - "Participants must be able to understand and communicate in **English**."
 ---
 
-The MELOW (MEtabolic Lifestyle and Omics for Wellness) study is a major upcoming research initiative exploring the frontiers of precision health. Metabolic responses to lifestyle factors are highly individualized, yet current clinical guidelines often rely on population-wide averages. MELOW addresses this gap by integrating longitudinal physiological data with biological markers to characterize unique metabolic phenotypes.
+The MELOW (Midlife Empowerment and Longevity through Optimizing Wellness) study is a 12-month longitudinal research initiative evaluating a personalized wellness programme for midlife women with abdominal obesity. This study investigates the impact of integrated digital and biological monitoring on visceral adipose tissue, the management of menopausal symptoms, and the reduction of overall cardiometabolic risk. 
 
-Our objective is to develop a predictive framework that supports tailored interventions for sustainable health management. By documenting how individuals interact with their environment and dietary choices at a granular level, MELOW aims to transition metabolic care from a generalized approach to one that is proactive, precise, and uniquely suited to the individual.
+By utilizing longitudinal physiological assessments and advanced wearable technology, the research aims to establish evidence-based strategies for enhancing healthy longevity and metabolic resilience during the menopausal transition.
