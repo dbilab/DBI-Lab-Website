@@ -67,4 +67,58 @@
   width: 100%;
 }
 
+.project-poster-link {
+  position: relative;
+  cursor: zoom-in;
+  width: 100%;
+}
+.project-poster-link .poster-zoom-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(30, 41, 59, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition);
+  color: white;
+  font-family: var(--heading);
+  font-size: 0.8rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.1em;
+  gap: 0.5rem;
+}
+.project-poster-link .poster-zoom-overlay i {
+  font-size: 1.5rem;
+}
+.project-poster-link:hover .poster-zoom-overlay {
+  opacity: 1;
+}
+
+.card-description {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text);
+  opacity: 0.8;
+  text-align: left;
+}
+
+.card-actions {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.card-actions .button {
+  width: auto;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: var(--bold);
+}
+
 /*# sourceMappingURL=card.css.map */
