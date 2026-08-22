@@ -42,6 +42,28 @@ nav:
   </div>
 </div>
 
+{% include section.html background-alt=true %}
+
+<div class="health-promotion-section">
+  <div style="text-align: center; margin-bottom: 50px;">
+    <h2 style="text-transform: uppercase; letter-spacing: 2px; font-weight: var(--bold); border-bottom: none; margin-bottom: 10px;">Public Health Promotion</h2>
+    <p style="color: var(--gray); font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">Bridging the gap between digital health technology and daily wellness. Explore our evidence-based guides on leveraging wearable technology for sustainable healthy living.</p>
+  </div>
+
+  <div class="promotion-grid">
+    <div class="promotion-card">
+      <a href="{{ 'images/Posters/Connecting Health & Lifestyle with Wearables_page-0001.jpg' | relative_url }}" target="_blank" data-tooltip="Click to view full guide">
+        <img src="{{ 'images/Posters/Connecting Health & Lifestyle with Wearables_page-0001.jpg' | relative_url }}" alt="Connecting Health & Lifestyle with Wearables - Guide Part 1">
+      </a>
+    </div>
+    <div class="promotion-card">
+      <a href="{{ 'images/Posters/Connecting Health & Lifestyle with Wearables_page-0002.jpg' | relative_url }}" target="_blank" data-tooltip="Click to view full guide">
+        <img src="{{ 'images/Posters/Connecting Health & Lifestyle with Wearables_page-0002.jpg' | relative_url }}" alt="Connecting Health & Lifestyle with Wearables - Guide Part 2">
+      </a>
+    </div>
+  </div>
+</div>
+
 <style>
 .social-grid {
   display: grid;
@@ -98,5 +120,42 @@ nav:
 .social-card .button {
   width: 80%;
   margin: 0;
+}
+
+.health-promotion-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.promotion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.promotion-card {
+  background: var(--background);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-gray);
+  transition: all var(--transition);
+}
+
+.promotion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  border-color: var(--primary);
+}
+
+.promotion-card img {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .promotion-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

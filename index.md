@@ -1,7 +1,7 @@
 ---
 ---
 
-{% assign project_count = site.data.projects | where: "group", "Ongoing" | size %}
+{% assign project_count = site.projects | where_exp: "item", "item.group == 'Ongoing' or item.group == 'Upcoming'" | size %}
 
 {% include section.html size="wide" %}
 
@@ -12,25 +12,11 @@
   </div>
   <div class="stat-item">
     <span class="stat-value">{{ project_count }}</span>
-    <span class="stat-label">PROJECTS WITH ACTIVE RECRUITMENT</span>
+    <span class="stat-label">PROJECTS</span>
   </div>
   <div class="stat-item">
     <span class="stat-value">4</span>
     <span class="stat-label">RESEARCH THEMES</span>
-  </div>
-  <div class="stat-item">
-    <span class="stat-value">2</span>
-    <span class="stat-label">SITES: NUS • NUHS</span>
-  </div>
-</div>
-
-{% include section.html background-alt=true %}
-
-<div class="affiliation-banner">
-  <span class="affiliation-title">AFFILIATED WITH</span>
-  <div class="affiliation-list">
-    <span>National University of Singapore (NUS)</span>
-    <span>National University Health System (NUHS)</span>
   </div>
 </div>
 

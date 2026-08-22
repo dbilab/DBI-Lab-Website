@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+{% assign group = page.group | downcase %}
+{% include section.html size="wide" %}
+
+<div class="project-page-wrapper">
+  <!-- Layer 1: Navigation -->
+  <nav class="project-top-nav">
+    <a href="{{ '/projects/' | relative_url }}" class="back-link">
+      <i class="fa-solid fa-arrow-left"></i> Back to Projects
+    </a>
+    <div class="top-nav-status">
+      {% include project-nav.html active=group %}
+    </div>
+  </nav>
+
+  <!-- Layer 2: Header -->
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    {% if page.full_title %}
+      <p class="project-full-title"><i>{{ page.full_title }}</i></p>
+    {% endif %}
+  </header>
+
+  <!-- Layer 3: Main Content Grid -->
+  <div class="project-content-grid">
+    <main class="project-main">
+      <article class="project-article">
+        <div class="project-intro">
+          {{ content }}
+        </div>
+
+        {% if page.process or page.eligibility or page.benefits or page.important %}
+          <div class="project-details">
+            {% if page.process %}
+              <section class="detail-section">
+                <h3><i class="fa-solid fa-list-check"></i> What will I need to do?</h3>
+                <ul class="detail-list">
+                  {% for item in page.process %}
+                    <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+
+            <div class="detail-grid">
+              {% if page.eligibility %}
+                <section class="detail-section eligibility">
+                  <h3><i class="fa-solid fa-user-check"></i> Eligibility</h3>
+                  <ul class="detail-list">
+                    {% for item in page.eligibility %}
+                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              {% endif %}
+
+              {% if page.benefits %}
+                <section class="detail-section benefits">
+                  <h3><i class="fa-solid fa-gift"></i> Benefits</h3>
+                  <ul class="detail-list">
+                    {% for item in page.benefits %}
+                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    {% endfor %}
+                  </ul>
+                  {% if page.benefits_note %}
+                    <span class="detail-note">{{ page.benefits_note }}</span>
+                  {% endif %}
+                </section>
+              {% endif %}
+            </div>
+
+            {% if page.important %}
+              <section class="detail-section important">
+                <h3><i class="fa-solid fa-circle-exclamation"></i> Important to know</h3>
+                <ul class="detail-list">
+                  {% for item in page.important %}
+                    <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if page.external_link %}
+          <div class="project-actions">
+            <a href="{{ page.external_link }}" class="button primary large">
+              {% if page.group == 'Closed' %}VIEW STUDY DETAILS{% else %}JOIN THE STUDY{% endif %}
+            </a>
+          </div>
+        {% endif %}
+      </article>
+    </main>
+
+    <!-- Layer 4: Sidebar -->
+    <aside class="project-sidebar">
+      {% if page.repo or page.tags %}
+        <div class="sidebar-card meta-card">
+          {% include tags.html tags=page.tags repo=page.repo %}
+        </div>
+      {% endif %}
+    </aside>
+  </div>
+</div>

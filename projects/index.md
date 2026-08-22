@@ -10,29 +10,24 @@ nav:
 DBI Lab leads and collaborates on interdisciplinary projects spanning digital weight management, cardiometabolic health, body image and weight stigma.
 Our projects range from observational trials, randomized controlled trials, implementation studies to the co-design and evaluation of digital health tools deployed in healthcare systems and communities.
 
-{% comment %}
-{% include tags.html tags="publication, resource, website" %}
+{% include project-nav.html %}
 
-{% include search-info.html %}
+<div class="project-groups">
+  <section class="project-group" data-group="ongoing">
+    <h2 id="ongoing">Recruitment: Ongoing</h2>
+    {% include list.html component="card" data="projects" filter="group == 'Ongoing'" %}
+  </section>
 
-{% include section.html %}
-{% endcomment %}
+  <section class="project-group" data-group="upcoming">
+    <h2 id="upcoming">Recruitment: Upcoming</h2>
+    {% include list.html component="card" data="projects" filter="group == 'Upcoming'" %}
+  </section>
 
-## Recruitment: Ongoing
-
-{% include list.html component="card" data="projects" filter="group == 'Ongoing'" %}
-
-{% include section.html %}
-
-## Recruitment: Upcoming
-
-{% include list.html component="card" data="projects" filter="group == 'Upcoming'" %}
-
-{% include section.html %}
-
-## Recruitment: Closed
-
-{% include list.html component="card" data="projects" filter="group == 'Closed'" %}
+  <section class="project-group" data-group="closed">
+    <h2 id="closed">Recruitment: Closed</h2>
+    {% include list.html component="card" data="projects" filter="group == 'Closed'" %}
+  </section>
+</div>
 
 {% comment %}
 ## More
