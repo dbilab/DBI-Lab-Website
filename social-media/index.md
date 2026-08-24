@@ -64,6 +64,28 @@ nav:
   </div>
 </div>
 
+{% include section.html %}
+
+<div class="health-promotion-section">
+  <div style="text-align: center; margin-bottom: 50px;">
+    <h2 style="text-transform: uppercase; letter-spacing: 2px; font-weight: var(--bold); border-bottom: none; margin-bottom: 10px;">Perimenopause Symptoms and Lifestyle Modifications</h2>
+    <p style="color: var(--gray); font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">Understanding the transition and empowering wellness through informed lifestyle changes. Explore our evidence-based guide on managing perimenopause symptoms and optimizing health through daily habits.</p>
+  </div>
+
+  <div class="promotion-grid">
+    <div class="promotion-card">
+      <a href="{{ 'images/Posters/Perimenopause Symptoms and Lifestyle Modifications_page-0001.jpg' | relative_url }}" target="_blank" data-tooltip="Click to view full guide">
+        <img src="{{ 'images/Posters/Perimenopause Symptoms and Lifestyle Modifications_page-0001.jpg' | relative_url }}" alt="Perimenopause Symptoms and Lifestyle Modifications - Guide Part 1">
+      </a>
+    </div>
+    <div class="promotion-card">
+      <a href="{{ 'images/Posters/Perimenopause Symptoms and Lifestyle Modifications_page-0002.jpg' | relative_url }}" target="_blank" data-tooltip="Click to view full guide">
+        <img src="{{ 'images/Posters/Perimenopause Symptoms and Lifestyle Modifications_page-0002.jpg' | relative_url }}" alt="Perimenopause Symptoms and Lifestyle Modifications - Guide Part 2">
+      </a>
+    </div>
+  </div>
+</div>
+
 <style>
 .social-grid {
   display: grid;
