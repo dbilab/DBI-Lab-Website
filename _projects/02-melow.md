@@ -1,7 +1,7 @@
 ---
 title: MELOW
 full_title: "Midlife Empowerment and Longevity through Optimizing Wellness"
-group: Upcoming
+group: Ongoing
 image: images/Posters/MELOW_Poster.png
 external_link: #
 repo: greenelab/lab-website-template

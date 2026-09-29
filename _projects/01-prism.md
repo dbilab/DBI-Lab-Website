@@ -1,7 +1,7 @@
 ---
 title: PRISM-I
 full_title: "Personalised Responses and Integrated Systems for Metabolism"
-group: Upcoming
+group: Ongoing
 image: images/Posters/PRISM_Poster.jpg
 external_link: https://nus.syd1.qualtrics.com/jfe/form/SV_26oE4VtLWqaTPOm
 repo: greenelab/lab-website-template
