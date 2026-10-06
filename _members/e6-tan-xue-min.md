@@ -1,6 +1,6 @@
 ---
 name: Tan Xue Min
-image: images/photo.jpg
+image: images/team/Tan-Xue-Min.jpeg
 description: Alumni
 role: alum
 group: alum

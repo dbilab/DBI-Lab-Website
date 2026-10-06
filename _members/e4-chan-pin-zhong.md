@@ -1,6 +1,6 @@
 ---
 name: Chan Pin Zhong
-image: images/photo.jpg
+image: images/team/Chan-Pin-Zhong.jpg
 description: Alumni
 role: alum
 group: alum

@@ -1,6 +1,6 @@
 ---
 name: Arielle Chezke Goh
-image: images/photo.jpg
+image: images/team/Arielle-Chezke-Goh.jpeg
 description: Alumni
 role: alum
 group: alum
