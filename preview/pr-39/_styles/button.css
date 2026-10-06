@@ -1,0 +1,87 @@
+button {
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: contents;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 5px - 5px);
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: var(--rounded);
+  background: var(--primary);
+  color: var(--background);
+  text-align: center;
+  font: inherit;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+  vertical-align: middle;
+  appearance: none;
+  transition: background var(--transition), color var(--transition);
+}
+
+.button:hover {
+  background: var(--text);
+  color: var(--background);
+}
+
+.button[data-style=bare] {
+  padding: 5px;
+  background: none;
+  color: var(--primary);
+}
+.button[data-style=bare]:hover {
+  color: var(--text);
+}
+
+.button[data-style=accent] {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-weight: var(--bold);
+}
+
+.button[data-style=accent]:hover {
+  background: white;
+  color: var(--accent);
+}
+
+.button[data-style=outline-white] {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 25px;
+  font-weight: var(--bold);
+}
+
+.button[data-style=outline-white]:hover {
+  background: white;
+  color: var(--primary);
+}
+
+.button[data-style=outline] {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 12px 25px;
+}
+
+.button[data-style=outline]:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.button[data-flip] {
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=button.css.map */
