@@ -1,5 +1,5 @@
 ---
-name: Karishma Amudha
+name: Chandramohan Amudha Karishma
 image: images/team/Karishma_photo.jpg
 description: Data Scientist
 role: datascientist

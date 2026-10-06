@@ -15,6 +15,7 @@ DBI Lab is comprised of a multidisciplinary team of behavioral scientists, data 
   <button class="team-tab-btn" data-filter="researchers">Researchers</button>
   <button class="team-tab-btn" data-filter="students">Students</button>
   <button class="team-tab-btn" data-filter="engagement">Engagement</button>
+  <button class="team-tab-btn" data-filter="alum">Alumni</button>
 </div>
 
 <div class="team-grid-container" id="team-grid">
@@ -35,7 +36,7 @@ DBI Lab is comprised of a multidisciplinary team of behavioral scientists, data 
   <div class="team-group-section" data-group="students">
     <h2 class="team-group-title">Students & Interns</h2>
     <div class="team-grid">
-      {% include list.html data="members" component="portrait" style="card" filter="role == 'phd' or role == 'undergrad' or role == 'intern'" %}
+      {% include list.html data="members" component="portrait" style="card" filter="(role == 'phd' or role == 'undergrad' or role == 'intern') and group != 'alum'" %}
     </div>
   </div>
 
@@ -43,6 +44,13 @@ DBI Lab is comprised of a multidisciplinary team of behavioral scientists, data 
     <h2 class="team-group-title">Digital Engagement</h2>
     <div class="team-grid">
       {% include list.html data="members" component="portrait" style="card" filter="role == 'associates'" %}
+    </div>
+  </div>
+
+  <div class="team-group-section" data-group="alum">
+    <h2 class="team-group-title">Alumni</h2>
+    <div class="team-grid">
+      {% include list.html data="members" component="portrait" style="card" filter="group == 'alum'" %}
     </div>
   </div>
 </div>

@@ -10,7 +10,9 @@
 {% assign type = site.data.types[member.role] %}
 
 {% assign group = "others" %}
-{% if member.role == "principal-investigator" %}
+{% if member.group == "alum" %}
+  {% assign group = "alum" %}
+{% elsif member.role == "principal-investigator" %}
   {% assign group = "pi" %}
 {% elsif member.role == "ra" or member.role == "pm" %}
   {% assign group = "staff" %}
