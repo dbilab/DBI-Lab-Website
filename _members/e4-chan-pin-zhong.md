@@ -1,11 +1,11 @@
 ---
 name: Chan Pin Zhong
 image: images/team/Chan-Pin-Zhong.jpg
-description: (AY2022/23) Won Outstanding Undergraduate Researcher Prize for his thesis on “The Diagnostic Test Accuracy of Artificial Intelligence-Assisted Detection of Acute Coronary Syndrome: A Systematic Review and Meta-Analysis”
+description: "Outstanding Undergraduate Researcher Prize (AY2022/23)"
 role: alum
 group: alum
 awards:
-  - title: Outstanding Undergraduate Researcher Prize (AY2022/23)
+  - title: "Outstanding Undergraduate Researcher Prize (AY2022/23) for his thesis on “The Diagnostic Test Accuracy of Artificial Intelligence-Assisted Detection of Acute Coronary Syndrome: A Systematic Review and Meta-Analysis”"
     year: 2023
 ---
 

@@ -1,11 +1,11 @@
 ---
 name: Arielle Chezke Goh
 image: images/team/Arielle-Chezke-Goh.jpeg
-description: (AY25/26) Won Outstanding Undergraduate Researcher Prize for her thesis on “Machine-learning-based Prediction Models for First-Trimester Risk Assessment of Great Obstetrical Syndromes: A Systematic Review and Meta-Analysis”
+description: "Outstanding Undergraduate Researcher Prize (AY2025/26)"
 role: alum
 group: alum
 awards:
-  - title: Outstanding Undergraduate Researcher Prize (AY25/26)
+  - title: "Outstanding Undergraduate Researcher Prize (AY25/26) for her thesis on “Machine-learning-based Prediction Models for First-Trimester Risk Assessment of Great Obstetrical Syndromes: A Systematic Review and Meta-Analysis”"
     year: 2025
 ---
 
