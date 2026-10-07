@@ -68,6 +68,23 @@ nav:
 
 <div class="health-promotion-section">
   <div style="text-align: center; margin-bottom: 50px;">
+    <h2 style="text-transform: uppercase; letter-spacing: 2px; font-weight: var(--bold); border-bottom: none; margin-bottom: 10px;">Healthy Eating & Smart Food Choices</h2>
+    <p style="color: var(--gray); font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">Making informed dietary decisions for long-term cardiometabolic wellness. Explore our evidence-based guide on choosing wholegrains, reducing sugar and sodium, and interpreting food labels.</p>
+  </div>
+
+  <div class="promotion-grid single-poster">
+    <div class="promotion-card">
+      <a href="{{ 'images/Posters/healthy-poster-tpt.png' | relative_url }}" target="_blank" data-tooltip="Click to view full guide">
+        <img src="{{ 'images/Posters/healthy-poster-tpt.png' | relative_url }}" alt="Healthy Eating & Smart Food Choices - Educational Guide" {% include fallback.html %}>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% include section.html background-alt=true %}
+
+<div class="health-promotion-section">
+  <div style="text-align: center; margin-bottom: 50px;">
     <h2 style="text-transform: uppercase; letter-spacing: 2px; font-weight: var(--bold); border-bottom: none; margin-bottom: 10px;">Perimenopause Symptoms and Lifestyle Modifications</h2>
     <p style="color: var(--gray); font-size: 1.1rem; max-width: 800px; margin: 0 auto; line-height: 1.6;">Understanding the transition and empowering wellness through informed lifestyle changes. Explore our evidence-based guide on managing perimenopause symptoms and optimizing health through daily habits.</p>
   </div>
@@ -153,6 +170,12 @@ nav:
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
+}
+
+.promotion-grid.single-poster {
+  max-width: 520px;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
 }
 
 .promotion-card {
