@@ -6,7 +6,9 @@ nav:
 ---
 
 <div class="snig-hero">
-  <h1 class="snig-hero-title">Singapore Nursing Innovation Group (SNIG)</h1>
+  <h1 class="snig-hero-title">
+    Singapore Nursing Innovation Group (SNIG)
+  </h1>
   <p class="snig-hero-subtitle">Driving healthcare innovation through student-led interdisciplinary collaboration.</p>
 </div>
 
@@ -14,8 +16,9 @@ nav:
 
 <div class="snig-section">
   <div class="snig-section-header">
-    <h2>Pictures & Short Bio of the Team</h2>
+    <h2>{% include icon.html icon="fa-solid fa-users" %} Our Team & Mission</h2>
     <div class="header-divider"></div>
+    <p class="section-lead-desc">Empowering nursing undergraduates to lead healthcare transformation through mentorship, interdisciplinary teamwork, and practical innovation.</p>
   </div>
 
   <div class="team-bio-wrapper">
@@ -38,8 +41,9 @@ nav:
 
 <div class="snig-section">
   <div class="snig-section-header">
-    <h2>Past Activities of SNIG</h2>
+    <h2>{% include icon.html icon="fa-solid fa-trophy" %} Past Initiatives & Impact</h2>
     <div class="header-divider"></div>
+    <p class="section-lead-desc">Highlighting our student-led hackathons, industry networking platforms, and collaborative events with healthcare institutions.</p>
   </div>
 
   <div class="activities-grid">
@@ -76,7 +80,7 @@ nav:
       <div class="activity-content">
         <span class="activity-badge">Networking</span>
         <h3 class="activity-title">SNIG x CGH Networking</h3>
-        <p class="activity-desc">A collaborative platform to allow SNIG members to network with innovators from CGH.</p>
+        <p class="activity-desc">A collaborative platform to allow SNIG members to network with innovators from Changi General Hospital (CGH).</p>
         <div class="activity-aim">
           <strong>Aim:</strong> Aiming for future collaborative ideas to emerge, driving innovation between students and working nurses.
         </div>
@@ -89,8 +93,9 @@ nav:
 
 <div class="snig-section">
   <div class="snig-section-header">
-    <h2>Upcoming Activities for SNIG</h2>
+    <h2>{% include icon.html icon="fa-solid fa-rocket" %} Upcoming Engagements & Roadmap</h2>
     <div class="header-divider"></div>
+    <p class="section-lead-desc">Discover our upcoming capability-building webinars, national hackathons, and hospital network collaborations.</p>
   </div>
 
   <div class="upcoming-grid">
@@ -130,7 +135,7 @@ nav:
       <div class="upcoming-details">
         <span class="upcoming-badge">Networking</span>
         <h3>Networking with TTSH</h3>
-        <p>An exploratory engagement with TTSH to build collaborative relationships and identify potential opportunities for innovation-related activities, such as idea development, project collaboration, and clinical or innovation shadowing.</p>
+        <p>An exploratory engagement with Tan Tock Seng Hospital (TTSH) to build collaborative relationships and identify potential opportunities for innovation-related activities, such as idea development, project collaboration, and clinical or innovation shadowing.</p>
       </div>
     </div>
   </div>
@@ -139,7 +144,7 @@ nav:
 <style>
 .snig-hero {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 10px 0 30px 0;
 }
 
 .snig-hero-title {
@@ -147,8 +152,16 @@ nav:
   letter-spacing: 2px;
   font-weight: var(--bold);
   font-size: clamp(1.8rem, 4vw, 2.4rem);
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
   color: var(--text);
+  text-align: center;
+}
+
+.snig-hero-title .icon,
+.snig-hero-title i {
+  color: var(--accent);
+  margin-right: 8px;
+  vertical-align: baseline;
 }
 
 .snig-hero-subtitle {
@@ -157,6 +170,7 @@ nav:
   max-width: 750px;
   margin: 0 auto;
   line-height: 1.6;
+  text-align: center !important;
 }
 
 .snig-section {
@@ -166,7 +180,7 @@ nav:
 
 .snig-section-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .snig-section-header h2 {
@@ -174,38 +188,57 @@ nav:
   letter-spacing: 2px;
   font-weight: var(--bold);
   border-bottom: none;
-  margin-bottom: 12px;
+  margin: 0 0 8px 0;
+  padding: 0;
   font-size: 1.6rem;
   color: var(--text);
+  text-align: center;
+}
+
+.snig-section-header h2 .icon,
+.snig-section-header h2 i {
+  color: var(--accent);
+  margin-right: 8px;
+  vertical-align: baseline;
 }
 
 .header-divider {
-  width: 60px;
-  height: 4px;
+  width: 50px;
+  height: 3px;
   background: var(--accent);
-  margin: 0 auto;
+  margin: 8px auto 16px auto;
   border-radius: 2px;
+}
+
+.section-lead-desc {
+  color: var(--gray);
+  font-size: 1.05rem;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center !important;
 }
 
 /* Team Section */
 .team-bio-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
   align-items: center;
 }
 
 .team-bio-text {
   font-size: 1.1rem;
   color: var(--text);
-  line-height: 1.8;
-  text-align: center;
+  line-height: 1.7;
+  text-align: center !important;
   max-width: 850px;
   background: var(--background);
   padding: 25px 30px;
   border-radius: var(--rounded);
   box-shadow: var(--shadow);
   border: 1px solid var(--light-gray);
+  margin: 0 auto;
 }
 
 .team-photos-grid {
@@ -311,6 +344,7 @@ nav:
   font-weight: var(--bold);
   margin-bottom: 12px;
   color: var(--text);
+  text-align: left;
 }
 
 .activity-desc {
@@ -319,6 +353,7 @@ nav:
   line-height: 1.6;
   margin-bottom: 18px;
   font-weight: var(--semi-bold);
+  text-align: left;
 }
 
 .activity-aim {
@@ -330,6 +365,7 @@ nav:
   border-radius: 8px;
   border-left: 3px solid var(--accent);
   margin-top: auto;
+  text-align: left;
 }
 
 /* Upcoming Activities Section */
@@ -387,6 +423,7 @@ nav:
   color: var(--text);
   margin-bottom: 12px;
   line-height: 1.4;
+  text-align: left;
 }
 
 .upcoming-details p {
@@ -394,6 +431,7 @@ nav:
   color: var(--gray);
   line-height: 1.6;
   margin: 0;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
