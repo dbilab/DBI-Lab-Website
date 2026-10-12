@@ -1,5 +1,15 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1093/eurjpc/zwag534
+  title: pendingpublications
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://doi.org/hcm6c2
+  orcid: 0000-0002-4209-1647
+  chew-jocelyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3390/nursrep16080283
   title: Development and Validation of an Interpretable Machine Learning Model for
     Inpatient Fall Risk Using Electronic Health Record Data
