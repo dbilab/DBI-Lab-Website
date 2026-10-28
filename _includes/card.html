@@ -34,34 +34,40 @@
     </a>
   {% endif %}
 
-  <div class="card-text">
-    {% if include.title %}
-      <a
-        {% if include.url %}
-          href="{{ include.url | relative_url | uri_escape }}"
-        {% elsif include.link %}
-          href="{{ include.link | relative_url | uri_escape }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip | xml_escape }}"
-        {% endif %}
-        class="card-title"
-      >
-        {{ include.title }}
-    </a>
-    {% endif %}
+  <div class="card-text{% if include.external_link %} has-actions{% endif %}">
+    <div class="card-summary">
+      {% if include.title %}
+        <a
+          {% if include.url %}
+            href="{{ include.url | relative_url | uri_escape }}"
+          {% elsif include.link %}
+            href="{{ include.link | relative_url | uri_escape }}"
+          {% endif %}
+          {% if include.tooltip %}
+            data-tooltip="{{ include.tooltip | xml_escape }}"
+          {% endif %}
+          class="card-title"
+        >
+          {{ include.title }}
+        </a>
+      {% endif %}
 
-    {% assign subtitle = include.subtitle | default: include.full_title %}
-    {% if subtitle %}
-      <span class="card-subtitle">{{ subtitle }}</span>
-    {% endif %}
+      {% assign subtitle = include.subtitle | default: include.full_title %}
+      {% if subtitle %}
+        <span class="card-subtitle">{{ subtitle }}</span>
+      {% endif %}
 
-    {% assign description = include.description | default: include.content %}
-    {% if description %}
-      <div class="card-description">
-        {{ description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </div>
-    {% endif %}
+      {% assign description = include.description | default: include.content %}
+      {% if description %}
+        <div class="card-description">
+          {{ description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </div>
+      {% endif %}
+
+      {% if include.tags or include.repo %}
+        {% include tags.html tags=include.tags repo=include.repo %}
+      {% endif %}
+    </div>
 
     {% if include.external_link %}
       <div class="card-actions">
@@ -69,10 +75,6 @@
           JOIN NOW
         </a>
       </div>
-    {% endif %}
-
-    {% if include.tags or include.repo %}
-      {% include tags.html tags=include.tags repo=include.repo %}
     {% endif %}
   </div>
 </div>

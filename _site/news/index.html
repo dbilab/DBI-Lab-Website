@@ -53,13 +53,13 @@
 <meta property="og:title" content="News">
 <meta property="og:site_title" content="DBI Lab">
 <meta property="og:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
-<meta property="og:url" content="http://localhost:4000">
+<meta property="og:url" content="http://0.0.0.0:4000">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="News">
 <meta property="twitter:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
-<meta property="twitter:url" content="http://localhost:4000">
+<meta property="twitter:url" content="http://0.0.0.0:4000">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
 
@@ -80,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": "http://localhost:4000"
+    "url": "http://0.0.0.0:4000"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="http://0.0.0.0:4000/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -247,6 +247,10 @@
   
 
   
+    <link href="/_styles/project.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/quote.css" rel="stylesheet">
   
 
@@ -359,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/project-filter.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -374,6 +380,7 @@
 
   <body>
     
+
 
 
 <header class="background" style="--image: url('/images/background.png')" data-dark="true">
@@ -404,7 +411,7 @@
       
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
+        <a href="/projects/" data-tooltip="Research interventions and projects">
           Projects
         </a>
       
@@ -424,6 +431,12 @@
       
         <a href="/social-media/" data-tooltip="Educational Bites">
           SOCIAL MEDIA
+        </a>
+      
+    
+      
+        <a href="/snig/" data-tooltip="Singapore Nursing Innovation Group">
+          SNIG
         </a>
       
     
@@ -478,23 +491,23 @@
 
 <div class="tags">
     
-      <a href="/news/?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+      <a href='/news/?search="tag:%20research"' class="tag" data-tooltip='Show items with the tag "research"'>
         research
       </a>
     
-      <a href="/news/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a href='/news/?search="tag:%20medicine"' class="tag" data-tooltip='Show items with the tag "medicine"'>
         medicine
       </a>
     
-      <a href="/news/?search=%22tag:%20academic-publications%22" class="tag" data-tooltip='Show items with the tag "academic-publications"'>
+      <a href='/news/?search="tag:%20academic-publications"' class="tag" data-tooltip='Show items with the tag "academic-publications"'>
         academic-publications
       </a>
     
-      <a href="/news/?search=%22tag:%20healthcare-and-nursing%22" class="tag" data-tooltip='Show items with the tag "healthcare-and-nursing"'>
+      <a href='/news/?search="tag:%20healthcare-and-nursing"' class="tag" data-tooltip='Show items with the tag "healthcare-and-nursing"'>
         healthcare-and-nursing
       </a>
     
-      <a href="/news/?search=%22tag:%20leadership%22" class="tag" data-tooltip='Show items with the tag "leadership"'>
+      <a href='/news/?search="tag:%20leadership"' class="tag" data-tooltip='Show items with the tag "leadership"'>
         leadership
       </a>
     
@@ -689,15 +702,15 @@
 
   <div class="tags">
     
-      <a href="/news?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a href='/news?search="tag:%20medicine"' class="tag" data-tooltip='Show items with the tag "medicine"'>
         medicine
       </a>
     
-      <a href="/news?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+      <a href='/news?search="tag:%20research"' class="tag" data-tooltip='Show items with the tag "research"'>
         research
       </a>
     
-      <a href="/news?search=%22tag:%20leadership%22" class="tag" data-tooltip='Show items with the tag "leadership"'>
+      <a href='/news?search="tag:%20leadership"' class="tag" data-tooltip='Show items with the tag "leadership"'>
         leadership
       </a>
     
@@ -770,19 +783,19 @@
 
   <div class="tags">
     
-      <a href="/news?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+      <a href='/news?search="tag:%20research"' class="tag" data-tooltip='Show items with the tag "research"'>
         research
       </a>
     
-      <a href="/news?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a href='/news?search="tag:%20medicine"' class="tag" data-tooltip='Show items with the tag "medicine"'>
         medicine
       </a>
     
-      <a href="/news?search=%22tag:%20academic-publications%22" class="tag" data-tooltip='Show items with the tag "academic-publications"'>
+      <a href='/news?search="tag:%20academic-publications"' class="tag" data-tooltip='Show items with the tag "academic-publications"'>
         academic-publications
       </a>
     
-      <a href="/news?search=%22tag:%20healthcare-and-nursing%22" class="tag" data-tooltip='Show items with the tag "healthcare-and-nursing"'>
+      <a href='/news?search="tag:%20healthcare-and-nursing"' class="tag" data-tooltip='Show items with the tag "healthcare-and-nursing"'>
         healthcare-and-nursing
       </a>
     

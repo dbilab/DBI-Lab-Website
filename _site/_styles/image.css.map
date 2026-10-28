@@ -1,1 +1,12 @@
-{"version":3,"sourceRoot":"","sources":["image.scss"],"names":[],"mappings":"AAAA;EACE;EACA","sourcesContent":["img {\n  max-width: 100%;\n  max-height: 100%;\n}\n"],"file":"image.css"}
+{
+	"version": 3,
+	"file": "image.css",
+	"sources": [
+		"image.scss"
+	],
+	"sourcesContent": [
+		"img {\n  max-width: 100%;\n  max-height: 100%;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,GAAG,CAAC,EACF,SAAS,EAAE,IAAI,EACf,UAAU,EAAE,IAAI,GACjB"
+}
