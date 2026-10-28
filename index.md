@@ -142,7 +142,7 @@ To see the main members of our research team via the following link:
 
 {% include section.html background-alt=true %}
 
-<div class="grid" style="--repeat: 2; align-items: flex-start;">
+<div class="grid homepage-news-projects" style="--repeat: 2; align-items: flex-start;">
   <div>
     <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">Latest News</a></h2>
     {% include list.html data="posts" component="post-excerpt" %}

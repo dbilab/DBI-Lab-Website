@@ -144,20 +144,17 @@ header:not([data-big]) {
 }
 
 header[data-big] {
-  // Responsive homepage logo width
-  --home-logo-w: clamp(280px, 20vw, 400px);
-  --home-logo-offset-left: 60px;
   --home-profile-w: 260px;
-  --home-page-w: 1100px;
+  --home-content-inset: clamp(24px, 5vw, 80px);
 
   display: grid;
-  grid-template-columns: 1fr minmax(0, var(--home-page-w)) 1fr;
+  grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr);
   grid-template-rows: auto auto auto;
   grid-template-areas:
-    "logo title profile"
-    "logo nav   profile"
-    "logo hero  profile";
-  column-gap: 40px;
+    "title profile"
+    "nav   profile"
+    "hero  profile";
+  column-gap: clamp(24px, 4vw, 64px);
   row-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -191,8 +188,10 @@ header[data-big] {
   // Hero Text styling
   .hero-content {
     grid-area: hero;
-    text-align: left;
-    max-width: 800px;
+    justify-self: center;
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
     margin-top: 20px;
 
     h1 {
@@ -208,6 +207,9 @@ header[data-big] {
     }
 
     p {
+      max-width: 900px;
+      margin-right: auto;
+      margin-left: auto;
       font-size: 1.2rem;
       opacity: 0.9;
       margin-bottom: 30px;
@@ -216,6 +218,7 @@ header[data-big] {
 
     .hero-buttons {
       display: flex;
+      justify-content: center;
       gap: 20px;
     }
   }
@@ -227,6 +230,10 @@ header[data-big] {
   nav {
     grid-area: nav;
     justify-self: start;
+    width: calc(100% - var(--home-content-inset));
+    max-width: 900px;
+    justify-content: flex-start;
+    margin-left: var(--home-content-inset);
     font-size: 1.1rem;
     gap: 20px;
   }
@@ -236,27 +243,16 @@ header[data-big] {
   }
 
   .home-logo {
-    grid-area: logo;
-    justify-self: start;
-    align-self: center;
-    margin-left: var(--home-logo-offset-left);
-  }
-
-  .home-logo .logo {
-    width: var(--home-logo-w);
-    height: auto;
-  }
-
-  .home-logo .logo > * {
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
   .home-title {
     grid-area: title;
     justify-self: start;
     align-self: end;
-    max-width: 100%;
+    width: calc(100% - var(--home-content-inset));
+    max-width: 900px;
+    margin-left: var(--home-content-inset);
   }
 
   .home-title .title-text {
@@ -267,9 +263,10 @@ header[data-big] {
 
   .home-profile {
     grid-area: profile;
-    justify-self: end;
+    justify-self: center;
     align-self: center;
     width: var(--home-profile-w);
+    max-width: 100%;
   }
 
   .home-profile .portrait {
@@ -309,9 +306,8 @@ header[data-big] {
 
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
-      "logo"
       "title"
       "nav"
       "hero"
@@ -324,13 +320,25 @@ header[data-big] {
       justify-self: center;
     }
 
-    .home-logo, .home-title, nav, .hero-content {
+    .home-title, nav, .hero-content {
       justify-self: center;
       text-align: center;
+      width: 100%;
+      max-width: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    nav {
+      justify-content: center;
     }
 
     .home-title .title-text, .hero-content {
-        align-items: center;
+      align-items: center;
+    }
+
+    .hero-content p {
+      text-align: center;
     }
 
     .hero-featured-card {

@@ -53,13 +53,13 @@
 <meta property="og:title" content="Team">
 <meta property="og:site_title" content="DBI Lab">
 <meta property="og:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
-<meta property="og:url" content="http://localhost:4000">
+<meta property="og:url" content="http://0.0.0.0:4000">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Team">
 <meta property="twitter:description" content="Behavioral Science • Digital Health • AI. Translational research lab at NUS integrating behavioral science, digital health, and AI to improve cardiometabolic health.">
-<meta property="twitter:url" content="http://localhost:4000">
+<meta property="twitter:url" content="http://0.0.0.0:4000">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.png">
 
@@ -80,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": "http://localhost:4000"
+    "url": "http://0.0.0.0:4000"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="http://0.0.0.0:4000/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -247,6 +247,10 @@
   
 
   
+    <link href="/_styles/project.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/quote.css" rel="stylesheet">
   
 
@@ -359,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/project-filter.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -374,6 +380,7 @@
 
   <body>
     
+
 
 
 <header class="background" style="--image: url('/images/background.png')" data-dark="true">
@@ -404,7 +411,7 @@
       
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
+        <a href="/projects/" data-tooltip="Research interventions and projects">
           Projects
         </a>
       
@@ -424,6 +431,12 @@
       
         <a href="/social-media/" data-tooltip="Educational Bites">
           SOCIAL MEDIA
+        </a>
+      
+    
+      
+        <a href="/snig/" data-tooltip="Singapore Nursing Innovation Group">
+          SNIG
         </a>
       
     
@@ -469,6 +482,7 @@
   <button class="team-tab-btn" data-filter="researchers">Researchers</button>
   <button class="team-tab-btn" data-filter="students">Students</button>
   <button class="team-tab-btn" data-filter="engagement">Engagement</button>
+  <button class="team-tab-btn" data-filter="alum">Selected Alumni</button>
 </div>
 
 <div class="team-grid-container" id="team-grid">
@@ -589,7 +603,7 @@ Assistant Professor<br>
 
 
 <div class="portrait-wrapper" data-group="scientists" data-role="datascientist">
-  <a href="/team/d2-karishma/" class="portrait" data-style="card" aria-label="Karishma Amudha">
+  <a href="/team/d2-karishma/" class="portrait" data-style="card" aria-label="Chandramohan Amudha Karishma">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
@@ -598,7 +612,7 @@ Assistant Professor<br>
 
     
       <span class="portrait-name">
-        Karishma Amudha
+        Chandramohan Amudha Karishma
       </span>
     
 
@@ -749,6 +763,40 @@ Assistant Professor<br>
 </div>
 
   
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="staff" data-role="ra">
+  <a href="/team/e3-dharshini/" class="portrait" data-style="card" aria-label="Dharshini">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Dharshini_Photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Dharshini
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
 
 
     </div>
@@ -794,40 +842,6 @@ Assistant Professor<br>
     
       <span class="portrait-description">
         PhD Student
-      </span>
-    
-
-    
-  </a>
-</div>
-
-  
-    
-
-    
-
-
-
-
-
-
-<div class="portrait-wrapper" data-group="students" data-role="undergrad">
-  <a href="/team/d8-ziyi-peng/" class="portrait" data-style="card" aria-label="Peng Ziyi">
-    
-      <i class="icon fa-solid fa-user-graduate"></i>
-    
-
-    <img src="/images/team/Ziyi_photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Peng Ziyi
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Undergraduate
       </span>
     
 
@@ -947,6 +961,161 @@ Assistant Professor<br>
     
       <span class="portrait-description">
         Digital Engagement Associate
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+
+
+    </div>
+  </div>
+
+  <div class="team-group-section" data-group="alum">
+    <h2 class="team-group-title">Selected Alumni</h2>
+    <div class="team-grid">
+      
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="students" data-role="undergrad">
+  <a href="/team/d8-ziyi-peng/" class="portrait" data-style="card" aria-label="Peng Ziyi">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Ziyi_photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Peng Ziyi
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Undergraduate
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="alum" data-role="alum">
+  <a href="/team/e4-chan-pin-zhong/" class="portrait" data-style="card" aria-label="Chan Pin Zhong">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Chan-Pin-Zhong.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Chan Pin Zhong
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Outstanding Undergraduate Researcher Prize (AY2022/23)
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="alum" data-role="alum">
+  <a href="/team/e5-arielle-chezke-goh/" class="portrait" data-style="card" aria-label="Arielle Chezke Goh">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Arielle-Chezke-Goh.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Arielle Chezke Goh
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Outstanding Undergraduate Researcher Prize (AY2025/26)
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+    
+
+    
+
+
+
+
+
+
+<div class="portrait-wrapper" data-group="alum" data-role="alum">
+  <a href="/team/e6-tan-xue-min/" class="portrait" data-style="card" aria-label="Tan Xue Min">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/Tan-Xue-Min.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Tan Xue Min
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Outstanding Undergraduate Researcher Prize (AY2024/25)
       </span>
     
 

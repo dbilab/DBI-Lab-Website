@@ -11,6 +11,10 @@
   margin: 20px 0;
 }
 
+.tags:not(:has(.tag)) {
+  display: none;
+}
+
 .tag {
   max-width: 100%;
   margin: 0;

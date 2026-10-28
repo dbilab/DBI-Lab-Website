@@ -34,6 +34,12 @@ $one: 500px;
   }
 }
 
+@media (max-width: 1200px) {
+  .grid.homepage-news-projects {
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid[data-style="square"] {
   align-items: center;
 
